@@ -28,7 +28,7 @@
     "@vercel/fetch": "^6.1.0",
     "autoprefixer": "^10.3.7",
     "aws-sdk": "^2.1094.0",
-    "bablic": "^1.0.38",
+    "bablic": "^1.0.39",
     "body-scroll-lock": "^3.1.5",
     "classnames": "^2.3.1",
     "cookie": "^0.4.1",
