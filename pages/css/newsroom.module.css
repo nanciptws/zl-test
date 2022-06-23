@@ -1,0 +1,148 @@
+
+
+
+/* common css */
+.btn_dark_blue{
+	color: #fff;
+    background: #288380;
+    border: 1px solid #288380;
+}
+.btn_dark_blue:hover{
+	color: #288380;
+	background-color: #ffffff;
+}
+.icon_calendar_full, .icon_share2{
+	font-family: "zoleo-icons";
+	font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    speak: none;
+}
+.icon_calendar_full:before{
+	content: "\e789";
+}
+.icon_share2:before{
+	content: "\e920";
+}
+/* common css end */
+.newsroom p{
+	margin-bottom: 32px;
+}
+.eight p a, .four p a{
+	text-decoration: underline;
+}
+.newsroom h4, .h4{
+	font: 24px/26px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+    letter-spacing: 0;
+    color: #1c2e33;
+    font-weight: 400;
+}
+.newsroom h5, .h5{
+	font: 20px/22px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+    letter-spacing: 0;
+    font-weight: normal;
+    color: #1c2e33;
+}
+.newsrooms a{
+	color: #3ABBB7;
+}
+.noMarginTop{
+	margin-top: 0;
+}
+.sort_description, .sort_description p{
+	font: 20px/24px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+}
+.p_small, .p_small p{
+	font-size: 16px;
+    line-height: 24px;
+}
+.text_light{
+	color: #ffffff;
+}
+.align_center{
+	text-align: center;
+}
+.full_bg{
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.newsroom .top_banner{
+	padding: 60px 0;
+}
+.newsroom .top_banner .left_btn{
+	margin-right: 5px;
+}
+.green_line{
+	margin-bottom: 3.5rem;
+    border-width: 0;
+    border-top: 1px solid #66c729;
+    box-sizing: content-box;
+}
+.icon_calendar_full{
+	padding-right: 4px;
+}
+.news_pill{
+	background-color: #f1f4fa;
+    border: none;
+    color: #3ABBB7;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: auto;
+    border-radius: 25px;
+}
+.icon_share2{
+	margin-right: 8px;
+}
+.p_small i{
+	padding-right: 10px;
+	font-family: 'zoleo-icons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.newsroom iframe{
+	max-width: 100%;
+	min-width: unset !important;
+}
+.block_col{
+	padding: 60px 0;
+}
+
+.icon_facebook:before {
+    content: "\e9b0";
+}
+.icon_instagram:before {
+	content: "\e9af";
+}
+.icon_linkedin:before {
+	content: "\e9ae";
+}
+@media (min-width: 992px){
+	.block_col{
+		display: flex;
+		padding: 60px 0;
+	}
+	.block_col .eight{
+		width: 65.33%;
+	}
+	.block_col .four{
+		width: 30.67%;
+		margin-left: 4%;
+	}
+}
+@media (max-width: 991px){
+	.block_col .four{
+		margin-top: 60px;
+		overflow-x: auto;
+	}
+}

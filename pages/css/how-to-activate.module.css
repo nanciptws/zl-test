@@ -1,0 +1,106 @@
+.how_to_active_hero_banner{
+	background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.how_to_active_hero_banner .bhero_bg{
+    position: relative;
+    z-index: 1;
+}
+.how_to_active_hero_banner .bhero_bg .bhero_content{
+	text-align: center;
+    color: #fff;
+    margin: 20px 0 32px;
+}
+.how_to_active_hero_banner .bhero_bg .bhero_content .lead,
+.how_to_active_hero_banner .bhero_bg .bhero_content .lead p{
+	font-size: 20px;
+	line-height: 1.4;
+    color: #fff;
+}
+.how_to_active_cms_section .cms_section_start {
+    display: block;
+    max-width: 590px;
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.how_to_active_cms_section .cms_section_start p {
+	font: 16px/24px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+	margin-bottom: 2rem;
+}
+.how_to_active_video {
+	position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.how_to_active_video iframe {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.how_to_active_small_content ol{
+    padding: 0;
+    margin: 0;
+}
+.how_to_active_small_content > ol {
+    padding: 0 0 40px 20px;
+    margin-top: 0;
+}
+.how_to_active_small_content ol li > ol{
+    list-style: none;
+}
+.how_to_active_small_content ol ol ol{
+	padding-left: 20px;
+	padding-bottom: 40px;
+	color: #1c2e33;
+    font: 14px/24px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+    line-height: 25px;
+    margin-bottom: 0;
+}
+.how_to_active_small_content ul{
+    padding-left: 20px;
+    list-style: circle;
+}
+.how_to_active_small_content ol li {
+	font: 16px/24px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+}
+.how_to_active_small_content ol a {
+	color: #3ABBB7;
+    text-decoration: underline;
+}
+.how_to_active_cms_section .cms_section_start li p{
+    margin: 0;   
+}
+.how_to_active_small_content .button {
+	color: #fff;
+    background: #F1513E;
+    border: 1px solid transparent;
+    width: auto;
+    transition: all ease-in 0.25s;
+    border-radius: 25px;
+    font: 500 14px/11px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    max-width: 300px;
+    text-decoration: none;
+    padding: 16px 30px 16px 30px;
+    letter-spacing: 0;
+    display: inline-block;
+    margin-bottom: 2.3em;
+    white-space: normal;
+}
+.how_to_active_small_content .button:hover {
+	color: #F1513E;
+    background: #fff;
+    border: 1px solid #F1513E;
+}

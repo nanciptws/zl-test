@@ -1,0 +1,118 @@
+
+
+.icon_chevron_right::before{
+	content: "\e9a2";
+}
+.rel_cont{
+	position: relative;
+	z-index: 1;
+}
+.compare_satellite_banner {
+	background-size: cover;
+	background-position: center;
+	padding: 100px 0;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.compare_satellite_banner .bhero_bg .bhero_content {
+	text-align: center;
+	color: #fff;
+	margin: 20px 0 32px;
+}
+.compare_satellite_banner .bhero_bg .bhero_content .lead,
+.compare_satellite_banner .bhero_bg .bhero_content .lead p{
+	font-size: 20px;
+	line-height: 1.4;
+	color: #fff;
+}
+.table_main {
+	border: 6px solid #f1f4fa;
+	border-radius: 12px;
+	border-spacing: 0;
+	width: 100%;
+	padding: 0 0 12px 0;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+.table_main .td_middle_m{
+	text-align: center;
+}
+.table_main td sup{
+	font-size: 75%;
+}
+.table_main th:first-child, .table_main td:first-child{
+	padding-left: 20px;
+	width: 40%;
+}
+.th_grey{
+	font-size: 20px;
+    background-color: #f1f4fa;
+    color: #394145;
+    text-align: left;
+    padding: 30px 20px 30px 20px;
+}
+.th_green{
+	font-size: 20px;
+    background-color: #66c729;
+    text-align: center;
+    padding: 30px 20px 30px 20px;
+    color: #fff;
+    width: 30%;
+}
+.th_blue{
+	font-size: 20px;
+    background-color: #3abbb7;
+    text-align: center;
+    padding: 30px 0 30px 0;
+    color: #fff;
+    border-radius: 0 6px 0 0;
+}
+.table_main td:not(:first-child), .table_main td:not(:first-child){
+	border-left: 1px solid #f1f4fa;
+}
+.table_main td:first-child{
+	padding: 15px;
+    vertical-align: middle;
+}
+.table_main tbody td {
+	border-left: 1px solid #f1f4fa;
+	padding: 16px;
+}
+
+.table_main tbody td:first-child {
+	padding-left: 20px;
+	border-left: none;
+}
+
+.mobile_only p {
+	font-size: 16px;
+	text-align: center;
+}
+.table_wrap{
+	overflow: auto;
+	margin: auto;
+    margin-bottom: 30px;
+}
+@media (min-width: 836px) {
+	.business_hero_banner .bhero_bg .bhero_content {
+		max-width: 65.33%;
+		margin: 20px auto 32px;
+	}
+	.table_wrap {
+		width: 82.67%;
+	}
+}
+@media only screen and (max-width: 835px) {
+	.table_main {
+		margin-top: 0px;
+	}
+	.table_main tbody td:first-child {
+		padding-left: 10px;
+	}
+	.table_main tbody td {
+		padding: 10px;
+	}
+	.small{
+		text-align: center;
+	}
+}

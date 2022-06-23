@@ -1,0 +1,61 @@
+@media (max-width: 767px){
+  .control {
+    /*@apply bg-violet absolute bottom-10 right-10 flex flex-row*/
+    /*border-accent-0 border text-accent-0 z-30 shadow-xl select-none;
+    height: 48px;*/
+    /*display: none;*/
+  }
+}
+
+.leftControl,
+.rightControl {
+  @apply px-9 cursor-pointer;
+  border: none;
+  background: #fff;
+  padding: 0;
+  position: absolute;
+  bottom: -119px;
+  height: 100px;
+  z-index: 1;
+  /*transition: background-color 0.2s ease;*/
+}
+.leftControl{
+  left: 0;
+}
+.rightControl{
+  right: 0;
+}
+.leftControl:before{
+  content: "\e9a1";
+  font: 25px zoleo-icons;
+}
+.rightControl:before{
+  content: "\e9a2";
+  font: 25px zoleo-icons;
+}
+/*.leftControl:hover,
+.rightControl:hover {
+  background-color: var(--violet-dark);
+}*/
+
+.leftControl:focus,
+.rightControl:focus {
+  @apply outline-none;
+}
+
+/*.rightControl {
+  @apply border-l border-accent-0;
+}
+
+.leftControl {
+  margin-right: -1px;
+}*/
+
+@media (max-width: 767px){
+  .rightControl{
+    right: -7px;
+  }
+  .leftControl {
+    left: -6px;
+}
+}

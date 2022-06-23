@@ -1,0 +1,117 @@
+.how_zoleo_sos_works .top_banner{
+	background-size: cover;
+    background-position: center;
+    background-color: #515151;
+    padding: 100px 0;
+    text-align: center;
+    color: #ffffff;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.how_zoleo_sos_works .top_banner .rel_cont{
+	position: relative;
+	z-index: 1;
+}
+.how_zoleo_sos_works .top_banner p{
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 28px;
+}
+.geos{
+	background-size: cover;
+    background-position: center;
+    padding: 60px 0 100px; 
+    background-repeat: no-repeat;
+}
+.how_zoleo_sos_works p{
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 2rem;
+}
+.activate_sos{
+	padding: 50px 0;
+}
+.activate_sos .title{
+	text-align: center;
+}
+.activate_sos .icn_list li{
+	margin-bottom: 30px;
+	display: flex;
+	padding-left: 0;
+}
+.activate_sos .icn_list li i{
+	position: static;
+	margin-right: 10px;
+}
+.sos_mistake{
+	background-size: cover;
+    background-position: center;
+    padding: 60px 0 120px;
+    background-repeat: no-repeat;
+}
+.notes{
+	margin-top: 40px;
+}
+.notes .legal, .notes .legal p{
+	font-size: 14px;
+}
+@media (min-width: 836px){
+	.geos .two_col{
+		display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+	.geos .left_content{
+		width: 30.67%;
+		margin-left: 8.66666666667%;
+	}
+	.activate_sos .icn_list{
+		padding-left: 10px;
+	}
+	.geos .right_image{
+		width: 48%;
+		margin-left: 4%;
+    	text-align: center;
+	}
+	.sos_mistake .two_col{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.sos_mistake .one_third{
+		width: 30.67%;
+	}
+	.sos_mistake .img_right{
+		margin-left: 4%;
+	}
+}
+@media (max-width: 835px){
+	.geos h2 br{
+		display: none;
+	}
+	.geos .two_col{
+		display: flex;
+	    flex-direction: column-reverse;
+	    justify-content: center;
+	    text-align: center;
+	}
+	.activate_sos .icn_list li{
+		flex-direction: column;
+	}
+	.activate_sos .icn_list li i{
+		margin-right: 0;
+    	margin-bottom: 16px;
+	}
+	.sos_mistake{
+		text-align: center;
+		background-image: url(https://images.prismic.io/zoleoinc/f40819f6-3e68-4cc8-89b1-e473b6f8298a_zoleo-curve-circles-background.jpg?auto=compress,format) !important;
+		padding: 40px 0 80px;
+	}
+	.sos_mistake .two_col{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.activate_sos .icn_list{
+		padding-left: 0;
+	}
+}

@@ -1,0 +1,78 @@
+.contact_us p{
+	margin-bottom: 32px;
+	font-size: 16px;
+    line-height: 24px;
+}
+.rel_cont{
+	position: relative;
+	z-index: 1;
+}
+.contact_us iframe{
+	width: 100%;
+	min-width: 100%;
+	border: none;
+}
+.contact_us a{
+	color: #3ABBB7;
+	text-decoration: underline;
+}
+.contact_us .noMarginBottom{
+	margin-bottom: 0;
+}
+.contact_us .noMarginTop{
+	margin-top: 0;
+}
+.legal{
+	font-style: italic;
+	font-size: 14px;
+}
+.contact_us .lead{
+	font-size: 20px;
+    line-height: 28px;
+}
+.text_light{
+	color: #ffffff;
+}
+.align_center{
+	text-align: center;
+}
+.full_bg{
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contact_us .top_banner{
+	padding: 120px 0;
+	position: relative;
+}
+.contact_inner{
+	padding: 50px 0;
+}
+.field{
+	margin-bottom: 20px;
+}
+.contact_us .contact_sec p{
+	margin: 5px 0;
+}
+.contact_us p em{
+	font-size: 14px;
+	line-height: 20px;
+}
+@media (min-width: 836px){
+	.two_col{
+		display: flex;
+		justify-content: center;
+	}
+	.one_third{
+		margin-left: 17.34%;
+		width: 30.67%;
+	}
+	.contact_inner .one_half:not(:first-child){
+		margin-left: 4%;
+	}
+}
+@media (max-width: 835px){
+	.contact_inner .one_half{
+		margin-top: 50px;
+	}
+}

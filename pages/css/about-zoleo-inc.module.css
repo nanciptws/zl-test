@@ -1,0 +1,191 @@
+.about_zoleo_inc_table
+{
+position:relative;
+z-index:1;
+}
+.about_zoleo_inc td p
+{
+font-size:16px;
+}
+.text_center {
+    text-align: center;
+}
+.margin_center {
+    margin: auto;
+}
+.about_zoleo_inc_hero_banner{
+	background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+    position: relative;
+}
+.about_zoleo_inc_hero_banner .hero_img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.about_zoleo_inc_hero_banner .bhero_bg{
+    z-index: 1;
+    position: relative;
+}
+.about_zoleo_inc_hero_banner .bhero_bg .bhero_content{
+	text-align: center;
+    color: #fff;
+    margin: 20px 0 32px;
+}
+.about_zoleo_inc_hero_banner .bhero_bg .bhero_content .h1{
+    font-weight: 400;
+}
+.azi_block.first {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.rel_cont{
+    z-index: 1;
+    position: relative;
+}
+.second_bgimg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.about_zoleo_inc p {
+    margin-bottom: 2rem;
+}
+.p_top_40 {
+    padding-top: 40px;
+}
+.p_top_50 {
+    padding-top: 50px;
+}
+.p_bottom_100 {
+    padding-bottom: 100px;
+}
+.about_zoleo_inc .azi_block p {
+    font: 16px/24px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+}
+.about_zoleo_inc .azi_block a {
+    color: #3ABBB7;
+    font-style: normal;
+    text-decoration: underline;
+}
+.about_zoleo_inc .azi_block a:hover {
+    text-decoration: none;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.azi_block .sk_column {
+    float: left;
+    box-sizing: border-box;
+} 
+@media (min-width: 836px){
+    .flex_wrap {
+        margin: 0 auto;
+        display: flex;
+    }
+    .eight.sk_columns {
+        width: 65.3333333333%;
+    }
+    .azi_block .sk_column:nth-child(2) {
+        margin-left: 4%;
+    }
+	.business_hero_banner .bhero_bg .bhero_content {
+		max-width: 65.33%;
+		margin: 20px auto 32px;
+	}
+	.table_wrap {
+		width: 100%;
+	}
+    .table_main th, .table_main td
+{
+	padding-left: 20px;
+	width: 25%;
+}
+.th_grey{
+	font-size: 20px;
+    color: #394145;
+    text-align: left;
+    padding: 30px 20px 30px 20px;
+    vertical-align:top;
+    text-align:center;
+}
+}
+@media (max-width: 835px) {
+    .azi_block .one_half.sk_column {
+        margin: 20px 0;
+        width: 100%;
+    }
+    .first.azi_block .one_half.sk_column{
+        margin: 0;
+    }
+    .azi_block .p_top_50 {
+        padding-top: 0px;
+    }
+	.table_main {
+		margin-top: 0px;
+	}
+	.table_main tbody td:first-child {
+		padding-left: 10px;
+	}
+	.table_main tbody td {
+		padding: 10px;
+	}
+	.small{
+		text-align: center;
+	}
+.about_zoleo_inc td:nth-child(4)
+{
+    border-bottom:none !important;
+}
+.table_main th, .table_main td
+{
+	width: 100%;
+    border-bottom:1px solid #B3D197;
+}
+.th_grey {
+	font-size: 20px;
+    color: #394145;
+    text-align: left;
+    padding: 20px 20px 0px 20px;
+    display:inline-block;
+    text-align:center;
+}
+}
+.table_main {
+	border-radius: 12px;
+	border-spacing: 0;
+	width: 100%;
+	padding: 0;
+}
+.table_main .td_middle_m{
+	text-align: center;
+}
+.table_main td sup{
+	font-size: 75%;
+}
+.table_main tbody td
+{
+	padding: 15px;
+    vertical-align: top;
+}
+.mobile_only p {
+	font-size: 16px;
+	text-align: center;
+}
+.table_wrap{
+	overflow: auto;
+	margin: auto;
+    margin-bottom: 30px;
+}
+.tbl-brdr tr {
+border-top: 1px solid #f1f4fa;
+}

@@ -1,0 +1,864 @@
+.hero_banner .badge{
+    display: flex;
+    margin: 20px auto;
+    position: relative;
+    float: none;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero_banner .hero_bg{
+	/*background-size: cover;
+  background-position: center;*/
+  padding: 130px 0 70px;
+  /*background-repeat: no-repeat;*/
+  position: relative;
+  z-index: 1;
+  width: 100vw;
+  max-width: 80vw;
+  margin: 0 auto;
+}
+.hero_banner .top_slider{
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100%;
+}
+.hero_banner .top_slider img{
+  width:100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.hero_banner .hero_bg .hero_content{
+	text-align: center;
+  color: #fff;
+  margin: 20px 0;
+}
+.hero_banner .hero_bg .hero_content h1{
+  margin: 0;
+}
+.hero_banner .hero_bg .hero_content .lead,
+.hero_banner .hero_bg .hero_content .lead p{
+	font-size: 20px;
+	line-height: 1.4;
+  color: #fff;
+}
+.zoleo_home .slick-dots{
+	bottom: 15px;
+}
+.zoleo_home .slick-dots li button:before {
+	font-family: slick;
+    font-size: 16px;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    content: "";
+    transition: background ease-in 0.3s;
+    text-align: center;
+    opacity: 0.80;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    border: 1px solid #288380;
+}
+.zoleo_home .slick-dots li:hover button:before, 
+.zoleo_home .slick-dots li.slick-active button:before{
+	background: #288380;
+}
+.rdps_slider.slick-slider.slick-dotted{
+	padding: 0;
+    margin: 0;
+}
+.rdps_content .rdps_homepage_carousel_content{
+	max-width: 80vw;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    width: 100vw;
+    padding: 10% 0;
+    color: #ffffff;
+}
+.rdps_content .rdps_homepage_carousel_content h2{
+  color: #ffffff;
+}
+.rdps_homepage_carousel_img{
+	position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100%;
+}
+.rdps_homepage_carousel_img img{
+	height: 100%;
+	width: 100%;
+}
+.zoleo_home .rdps_slider .slick-next{
+	right: 15px;
+}
+.zoleo_home .slick-next:before{
+	content: '\e9a2';
+    font: 25px "zoleo-icons"
+}
+.zoleo_home .rdps_slider .slick-prev{
+	left: 15px;
+	z-index: 1;
+}
+.zoleo_home .slick-prev:before{
+	content: '\e9a1';
+    font: 25px "zoleo-icons";
+}
+.promotion ul, .promotion ol
+{   padding:0; margin:0; list-style:none;
+}
+.promotion p a{
+    text-decoration: underline;
+}
+.text_center {
+    text-align: center;
+}
+.margin_center
+{   margin:auto !important;
+}
+.promotion p {
+    margin-bottom: 2rem;
+}
+.m_top_80 {
+    margin-top: 80px;
+}
+.m_bottom_40 {
+    margin-bottom: 40px !important;
+}
+
+.p_top_20{
+    padding-top: 20px;
+}
+.p_top_40 {
+    padding-top: 40px;
+}
+.p_top_50 {
+    padding-top: 50px;
+}
+.p_top_80 {
+    padding-top: 80px;
+}
+.p_top_100 {
+    padding-top: 100px;
+}
+.p_bottom_5
+{   padding-bottom:5px
+}
+.p_bottom_10 {
+    padding-bottom: 10px;
+}
+.p_bottom_20 {
+    padding-bottom: 20px;
+}
+.p_bottom_40 {
+    padding-bottom: 40px;
+}
+.p_bottom_50 {
+    padding-bottom: 50px;
+}
+.p_bottom_80 {
+    padding-bottom: 80px;
+}
+.p_bottom_100 {
+    padding-bottom: 100px;
+}
+.p_bottom_300
+{   padding-bottom:300px;
+}
+.p_right_10
+{   padding-right:10px;
+}
+.text_light,
+.text_light p {
+    color: #fff;
+}
+.p_left_10 {
+    padding-left: 10px;
+}
+.promotion .p_left_50 {
+    padding-left: 50px;
+}
+.apple_store img{
+    width: 160px;
+}
+.google_play, .apple_store {
+    text-decoration: none;
+}
+.google_play img {
+    width: 190px;
+    box-sizing: border-box;
+}
+.promotion_hero_bg {
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.promotion p.lead,
+.promotion .lead p {
+    font: 20px/28px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+}
+.promotion_cms_section a {
+    color: #3ABBB7;
+    font-style: normal;
+}
+.cms_section_block p a:hover {
+    text-decoration: none;
+}
+.icon_list_right {
+    list-style: none;
+    text-align: right;
+}
+.cms_section_block ul li {
+    font: 16px/24px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+}
+.promotion ul{
+    margin: 0 0 0 0;
+    padding: 0;
+    color: #1c2e33;
+    font: 14px/24px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+}
+.noMarginRight
+{   margin-right:0px !important;
+}
+.noMarginLeft
+{   margin-left:0px !important;
+}
+.icon_list_right {
+    list-style: none;
+    text-align: right;
+}
+.icon_list_right li {
+    position: relative;
+    margin: 0 0 10px;
+    padding: 0;
+    min-height: 80px;
+}
+.li_vertical_centre_right {
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row-reverse;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.icon_circle_bg {
+    padding: .5em;
+    color: #fff;
+    font-size: 2em;
+    background: #3ABBB7;
+    border: .2em solid #cce9ed;
+    border-radius: 50%;
+}
+.icon_list li {
+    position: relative;
+    margin: 0 0 10px;
+    padding: 0px 0px 0px 35px;
+    min-height: 80px;
+}
+.li_vertical_centre {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.icon_list li i {
+    position: absolute;
+    left: -50px;
+    top: 1px;
+}
+.m_left_10 {
+    margin-left: 10px;
+}
+.icon_list {
+    list-style: none;
+    margin-left: 0;
+}
+.legal p{
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.legal{
+	font-size: 14px;
+	line-height: 24px;
+}
+.legal_zoloe_gaia{
+	font-size: 14px;
+	line-height: 24px;
+    text-align:center;
+}
+.promotion_cms_section ul li 
+{   font: 16px/24px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+    color:white;
+}
+
+.promotion_cms_section ol li 
+{  color:white;
+}
+.business_content p
+{
+color:white;
+}
+
+.promotion_cms_section.second .cms_section_block {
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.promotion_cms_section .text_light h2, 
+.promotion_cms_section .text_light .lead, 
+.promotion_cms_section .text_light p, 
+.text_light ul li {
+    color: #fff;
+}
+ 
+.section_seven h2 
+{
+    color: #fff;
+}
+.section_seven p 
+{
+    font-size:16px;
+}
+.section_eight h3 
+{
+    color: #1c2e33 !important;
+	text-align:left
+}
+.section_eight p 
+{
+    font-size: 16px;
+	color: #1c2e33;
+	text-align:left
+}
+.promotion_cms_section.third .cms_section_block {
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.promotion_cms_section.fourth .cms_section_block {
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg_gray_3 {
+    background-color: #F1F4FA;
+}
+
+.promotion_cms_section .icon_list {
+    list-style: none;
+    margin-left: 0;
+}
+
+.promotion_cms_section .icon_list li {
+    position: relative;
+    margin: 0 0 10px;
+    padding: 0px 0px 0px 35px;
+    min-height: 80px;
+}
+.promotion_cms_section .icon_list li i {
+    position: absolute;
+    left: -50px;
+    top: 1px;
+}
+.promotion_cms_section .icon_list .icon_circle_green_border_bg {
+    padding: .5em;
+    color: #fff;
+    font-size: 2em;
+    background: #66c729;
+    box-shadow: 0px 0px 0px 8px rgb(102 199 41 / 50%);
+    border-radius: 50%;
+}
+.offset_by_one.sk_column, .check_in_with_ease_img {
+    float: left;
+}
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.icon_list .lead, .icon_list .lead p
+{   font:20px/28px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+margin: 0;
+}
+
+
+.promotion h5 
+{   font:20px/22px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif; letter-spacing:0; font-weight:normal;
+}
+.text_light h5 
+{   color:#fff;
+}
+.business_content h3
+{
+color:#fff;
+}
+.img_responsive
+{   display:block; margin:0 auto; text-align:center;
+}
+.promotion_cms_section ol li p
+{   
+    font-size:16px; 
+    line-height:24px;
+    color:white;
+}
+.promotion_cms_section p.lead,
+.promotion_cms_section .lead p
+{   font-size:20px; line-height:28px;
+}
+.promotion_cms_section p a
+{   color:#3ABBB7;
+}
+.bg_image
+{   background-repeat:no-repeat; background-size:cover; background-position:center;   
+}
+.bc_nine
+{   padding-top:100px; /*padding-bottom:56px;*/
+}
+.bc_nine .gmo_slide_cont
+{   width:100%; float:left;
+}
+.o_hidden
+{   overflow:hidden;
+}
+.bc_nine{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.52), rgba(245, 245, 245, 0.73));
+}
+.first h2{
+    margin-bottom: 0;
+}
+.first .middle_sec{
+    line-height: 0;
+}
+.second .twelve{
+    line-height: 0;
+}
+.images{
+    line-height: 0;
+}
+.promotion .bc_nine .container{
+    padding-bottom: 50px;
+}
+
+.business_bg{
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.business_bg .learn_links {
+	color: #fff;
+    background: #66C729;
+    border-radius: 25px;
+    border: 1px solid #66C729;
+    padding: 16px 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 11px;
+}
+.business_bg .learn_links:hover{
+	background: #478B1D;
+    border: 1px solid #478B1D;
+}
+.zoleo_work{
+	padding: 50px 0 0 0;
+	text-align: center;
+}
+.zoleo_banner{
+	padding: 30px 0 0 0;
+}
+.zoleo_badge
+{
+    margin-right: 10px;
+    filter: saturate(0%);
+    filter: brightness(0%)
+}
+
+.promotion_cms_section li
+{
+padding-bottom:20px;
+}
+
+.logo_text
+{
+text-align:center;
+}
+.logo_text h3
+{
+margin-top:0px;
+}
+.sk_columns, .sk_column
+{   width:100%; float:left;
+}
+.text_center
+{   text-align:center;
+}
+
+.bg_zoloe_gaia
+{
+background-size: cover;
+background-position: center;
+}
+@media (min-width:836px)
+{   .sk_columns, .sk_column 
+    {   margin-left:4%;
+    }
+    .promotion h1{
+        margin: 0;
+    }
+    .sk_columns:first-child, .sk_column:first-child
+    {   margin-left:0;
+    }
+    .five.sk_columns
+    {   width:39.3333333333%;
+    }
+    .seven.sk_columns
+    {   width:56.6666666667%;
+    }
+    .content_left{
+    width: 48%;
+    margin: auto;
+    padding:30px;
+    }
+  .img_right
+    {
+    width: 48%;
+    margin: auto;
+    padding:30px;
+    }
+    .flex_wrap
+    {   margin:0 auto; display:flex;
+    }
+    .d_flex
+    {   display:flex; justify-content:center;
+    }
+    .d_v_flex
+    {   display:flex; align-items:center; justify-content:center;   
+    }
+    .d_flex_start
+    {   display:flex; justify-content:flex-start;
+    }
+    .flex_wrap.flex_center
+    {   align-items:center; justify-content:center;
+    }
+    .three.sk_columns
+    {   width:22%;
+    }
+    .one_third.sk_columns, .one_third.sk_column
+    {   width:30.6666666667%;
+    }
+    .offset_by_one.sk_column
+    {   margin-left:8.66666666667%; width:30.6666666667%;
+    }
+    .bc_nine .seven{
+        margin-left: -20px;
+    }
+		.business_bg .img_description{
+		display: flex;
+	    align-items: center;
+	    justify-content: center;
+        width:100%
+	}
+	.business_img{
+		width: 48%;
+		display: inline;
+    	margin: auto !important;
+    	float: left;
+	}
+	.section_eight_img{
+		width: 30% !important;
+	}
+	.image_business_right
+	{
+		margin: auto 0 auto auto;
+		width: 400px;
+    	display: block;
+		
+	}
+		.image_business_left
+	{
+		margin: auto auto auto 0;
+		width: 400px;
+    	display: block;
+		
+	}
+	.business_content{
+		width: 39.3333333333%;
+	}
+
+    .two.sk_columns
+    {   width:13.3333333333%;
+    }
+    .three.sk_columns
+    {   width:22%;
+    }
+    .eight.sk_columns
+    {   width:65.3333333333%; margin:0 auto
+    }
+    .one_half.sk_column
+    {   width:48%;
+    }
+    .help_hover_:hover .plan_tooltip
+    {   display:block;
+    }
+    .icn_list li i
+    {
+    position: absolute;
+    left: -50px;
+    top: -25px;
+    }
+
+}
+
+@media (max-width: 991px) and (min-width: 836px){
+    .promotion_cms_section.fourth .cms_section_block{
+        padding-bottom: 50px;
+    }
+}
+@media (max-width: 835px){
+    .promotion_hero_bg{
+        background-image:url(https://images.prismic.io/zoleoinc/c98efe8c-03b0-4cad-8de8-4b7642f7facd_zoleo-satellite-mobile-messaing-app-banner-m.jpg?auto=compress,format) !important;       
+        padding: 40px 0 60px;
+    }
+.bg_zoloe_gaia
+{
+background-image:url(https://images.prismic.io/zoleoinc/ca65dfa3-9959-4005-8f3f-37d08e54bd72_zoleo-road-background.jpg?auto=compress,format?auto=compress,format) !important;       
+background-size: cover;
+background-position: center;
+}
+    .first .mobile_swap{
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+    }
+    .first .mobile_swap .left_sec{
+        order: 1;
+        width: 100%;
+    }
+    .first .mobile_swap .middle_sec{
+        text-align: center;
+    }
+    .promotion_cms_section .left_sec ul li{
+        flex-direction: row;
+        text-align: left;
+    }
+    .first .mobile_swap .right_sec{
+        order: 2;
+        width: 100%;
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+    .promotion_cms_section .right_sec ul li{
+        padding-left: 0;
+    }
+    .first .mobile_swap .right_sec i{
+        position: static;
+        margin-right: 10px;
+    }
+    .promotion_cms_section .icon_circle_bg{
+        margin-left: 0;
+    }
+    .first .cms_section_block .p_top_40{
+        padding-top: 10px;
+    }
+    .promotion_cms_section.second .cms_section_block{
+        background-image: url(https://images.prismic.io/zoleoinc/91b40fd0-6018-4794-815c-6a2f62279315_road-through-foggy-mountains-m.jpg?auto=compress,format) !important;
+    }
+    .global_message .cms_section_block .margin_center{
+        text-align: center;
+    }
+    .global_message .cms_section_block .p_bottom_80{
+        padding-bottom: 50px;
+    }
+    .something_good .title{
+        padding-bottom: 0;
+    }
+    .something_good .title h2{
+        margin-bottom: 0;
+    }
+    .something_good{
+        text-align: center;
+    }
+    .something_good .mobile_swap{
+        flex-direction: column-reverse;
+        display: flex;
+        padding-bottom: 50px;
+    }
+    .promotion_cms_section.third .cms_section_block{
+        background-image: url(https://images.prismic.io/zoleoinc/3b4ba8ed-54a2-4dbc-9ddc-0adcae7c23c4_outdoors-transparent-background-m.jpg?auto=compress,format) !important;
+    }
+    .section_seven .mobile_swap{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 0;
+        text-align: center;
+    }
+    .section_seven .icon_list, .check_in_with_ease .icon_list, .bc_seven .mobile_swap .icon_list {
+        padding-left: 0;
+    }
+    .section_seven .icon_list li, .check_in_with_ease .icon_list li, .bc_seven .mobile_swap .icon_list li{
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: unset;
+        margin-bottom: 0 !important;
+    }
+    .check_in_with_ease .icon_list li p, .bc_seven .mobile_swap .icon_list li p{
+        font-size: 16px;
+        line-height: 24px;
+        margin: 16px 0 32px;
+        text-align: center;
+    }
+    .section_seven .icon_list li i, .check_in_with_ease .icon_list li i, .bc_seven .mobile_swap .icon_list li i{
+        position: static;
+        margin: auto;
+    }
+    .bc_six .title{
+        padding-bottom: 0;
+    }
+    .bc_six .mobile_swap{
+        display: flex;
+        flex-direction: column;
+    }
+    .bc_six .mobile_swap .left{
+        order: 1;
+    }
+    .bc_six .mobile_swap .left h5{
+        text-align: center;
+    }
+    .bc_six .mobile_swap .left li{
+        display: flex;
+        align-items: center;
+    }
+    .bc_six .mobile_swap .right{
+        order: 1;
+        text-align: center;
+    }
+    .bc_six .mobile_swap .middle{
+        text-align: center;
+    }
+    .bc_seven .mobile_swap{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 0;
+    }
+    .bc_seven .mobile_swap img{
+        position: relative;
+        left: -10%;
+    }
+    .bc_seven .mobile_swap .icon_list li > br{
+        display: none;
+    }
+    .bc_seven .mobile_swap .icon_list li .legal{
+        margin: 16px 0 32px;
+    }
+    .bc_eight .bg_image{
+        background-image: unset !important;
+        background-color: #515151;
+        text-align: center;
+    }
+    .bc_nine{
+        text-align: center;
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.52), rgba(245, 245, 245, 0.73));
+    width: 100%;
+    }
+    .bc_nine img{
+        display: inline-block !important;
+    }
+    .check_in_with_ease .seven{
+        overflow: hidden;
+    }
+    .check_in_with_ease .seven img{
+        position: relative;
+        right: -10%;
+    }
+    .first .icon_list_right i{
+        margin-right: 10px;
+        margin-left: 0;
+    }
+    .check_in_with_ease .p_top_40.p_bottom_50{
+        padding-top: 0;
+    }
+	
+	.business_bg .img_description{
+    text-align: center;
+    padding: 0px 0 30px;
+  }
+  .business_img{
+    padding-bottom: 20px;
+  }
+	.image_business{
+    height: 90vw;
+    display: block;
+    margin: 0 auto;
+    padding: 0 0 50px;
+  }
+	.business_bg
+	{
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.10), rgba(255, 255, 255, 0.11)), url('https://zoleo-aws-stg-cdn.zoleo.com/media/wysiwyg/backgrounds/zoleo-circle-background.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	}
+
+	.zoleo_work .zoleo_work_inner{
+		width: 90%;
+		margin: auto;
+	}
+    .terms_section_blocks h2
+    {   font-size:24px; font-weight:500;
+    }
+    .terms_section_blocks h2
+    {   font-size:24px; font-weight:500;
+    }
+}
+@media (max-width: 480px){
+    .promotion_hero_bg .five > a{
+        float: left;
+        clear: both;
+    }
+    .google_play img{
+        padding-left: 0;
+        width: 180px;
+    }
+    .terms_section_blocks .one_half ul{   
+        padding-left:15px;
+    }
+    
+    .zoleo_badge
+    {
+    width:108px !important;
+    }
+
+    .gaia_badge
+    {
+    width:168px !important;
+    }
+}

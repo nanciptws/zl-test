@@ -1,0 +1,36 @@
+.text_light, .text_light p{
+	color: #ffffff;
+}
+.align_center{
+	text-align: center;
+}
+.full_bg{
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.warranty .top_banner{
+	padding: 100px 0;
+}
+.warranty p{
+	font-size: 16px;
+    line-height: 24px;
+	margin-bottom: 32px;
+}
+.warranty .lead,
+.warranty .lead p{
+	font-size: 20px;
+    line-height: 28px;
+}
+.warranty ul{
+	padding-left: 20px;
+	margin: 10px 0 30px;
+}
+.container_inner{
+	margin: 50px auto 100px;
+}
+@media (min-width: 836px){
+	.container_inner{
+		width: 65.33%;
+	}
+}

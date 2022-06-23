@@ -1,0 +1,26 @@
+{
+  "title": "ZOLEO® Seamless Connectivity Beyond Cell Coverage",
+  "titleTemplate": "",
+  "description": "ZOLEO® provides seamless global messaging connectivity beyond cell coverage, learn more about the ZOLEO Satellite Communicator, the app and more.",
+  "openGraph": {
+    "title": "ZOLEO® Seamless Connectivity Beyond Cell Coverage",
+    "description": "ZOLEO® provides seamless global messaging connectivity beyond cell coverage, learn more about the ZOLEO Satellite Communicator, the app and more.",
+    "type": "website",
+    "locale": "en-gb",
+    "url": "https://www.zoleo.com/",
+    "site_name": "ZOLEO® Seamless Connectivity Beyond Cell Coverage",
+    "images": [
+      {
+        "url": "/card.png",
+        "width": 800,
+        "height": 600,
+        "alt": "Zoleo"
+      }
+    ]
+  },
+  "twitter": {
+    "handle": "@nextjs",
+    "site": "@nextjs",
+    "cardType": "summary_large_image"
+  }
+}

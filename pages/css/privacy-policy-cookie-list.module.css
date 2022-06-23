@@ -1,0 +1,65 @@
+
+
+
+
+.privacy_policy_cookie_list p{
+	font-size: 16px;
+	line-height: 24px;
+	margin-top: 16px;
+	margin-bottom: 32px;
+}
+.privacy_policy_cookie_list a{
+	text-decoration: underline;
+}
+.privacy_policy_cookie_list table p{
+	margin: 0;
+}
+.privacy_policy_cookie_list thead tr{
+    background: #515151;
+}
+.privacy_policy_cookie_list thead tr th{
+	color: #fff;
+}
+.privacy_policy_cookie_list tr{
+	border-bottom: 1px solid #C3C3C3;
+    background: #fff;
+}
+.privacy_policy_cookie_list th, .privacy_policy_cookie_list td{
+	text-align: left;
+	padding: 20px 10px;
+    font: 16px/24px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+}
+.privacy_policy_cookie_list th{
+	font-family: "AvenirNextLTPro-Demi", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+	color: #515151;
+}
+.privacy_policy_cookie_list tr:nth-of-type(even){
+	background-color: #F7F9F9;
+}
+.pc_inner .cookie_list{
+	margin: 75px auto;
+}
+@media (min-width: 836px){
+	.pc_inner .cookie_list{
+		width: 65.33%;
+	}
+}
+@media (max-width: 600px){
+	.table_scroll{
+		position: relative;
+		padding-top: 20px;
+		overflow-x: auto;
+	}
+	.table_scroll:after{
+		content: '\e9a2 scroll to view more';
+	    font-size: 12px;
+	    line-height: 10px;
+	    font-style: normal;
+	    color: #7A7A7A;
+	    font-family: "zoleo-icons";
+	    display: block;
+	    position: absolute;
+	    top: 2px;
+	    right: 0;
+	}
+}

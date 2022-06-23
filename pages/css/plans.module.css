@@ -1,0 +1,389 @@
+.plans [class^="icon-"], .plans [class*=" icon-"], .plans i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'zoleo-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+.plans *
+{   box-sizing:border-box;
+}
+.plans p, .plans form
+{   margin-bottom:32px;
+}
+.plans ul, .plans ol
+{   padding:0; margin:0;
+}
+.text_center
+{   text-align:center;
+}
+.p_top_40
+{   padding-top:40px;
+}
+.plans_cms_section{
+    display: inline-block;
+    width: 100%;
+}
+.plans_hero_banner
+{   
+    background-repeat:no-repeat; 
+    background-size:cover; 
+    background-position:center; 
+    padding:80px 0 200px;
+}
+.plans .plans_bg .plans_content
+{   text-align:center; color:#fff; width:48%; margin:0 auto;
+}
+.plans .plans_bg .plans_content .lead,
+.plans .plans_bg .plans_content .lead p
+{   font-size:20px; line-height:28px; color:#fff;
+}
+.plans_cms_section .bg_image
+{   width:100%; float:left; 
+    background-repeat:no-repeat; background-size:cover; 
+    background-position:center;
+}
+.container
+{   clear:left;
+}
+.icon_bubble_question:before
+{   content:"\e7da";
+font-family: 'zoleo-icons';
+}
+.icon_list_bullet_desktop::before
+{   content:"\e99f"; font-size:10px; display:inline-block; width:auto; margin-left:28px; margin-top:0; position:relative; top:3px;
+    font-family: 'zoleo-icons';
+}
+.sk_columns, .sk_column
+{   width:100%; float:left;
+}
+.icon_list
+{   list-style:none; margin:0 auto; padding-left:0;
+}
+.icon_list li
+{   position:relative; margin:0 0 10px; padding:0; height:80px;
+}
+.icon_list li i
+{   position:absolute; left:-50px; top:1px;
+}
+.icon_list .lead
+{   font-size:20px; line-height:28px;   
+}
+.text_green
+{   color:#66c729;
+}
+.p_top_8
+{   padding-top:8px;
+}
+.p_top_40
+{   padding-top:40px;
+}
+.p_bottom_40
+{   padding-bottom:40px;
+}
+.m_top_0
+{   margin-top:0px;
+}
+.m_top_30
+{   margin-top:30px;
+}
+.m_top_40
+{   margin-top:40px;
+}
+.m_top_42
+{   margin-top:42px;
+}
+.m_top_46
+{   margin-top:46px;
+}
+.plans .m_bottom_0
+{   margin-bottom:0;
+}   
+.m_bottom_24
+{   margin-bottom:24px;
+}
+.m_bottom_30
+{   margin-bottom:30px;
+}
+.m_bottom_36
+{   margin-bottom:36px;
+}
+.m_bottom_42
+{   margin-bottom:42px;
+}
+.m_bottom_50
+{   margin-bottom:50px;
+}
+.m_left_6
+{   margin-left:6px;
+}
+.i_size_1_25
+{   font-size:20px;
+}
+.plans_table_box
+{   border:6px solid #e9ebf3; border-radius:12px; background-color:#fff; width:100%; padding:30px 0 30px 0;
+}
+.help_hover_
+{   position:relative; text-decoration:none;
+    color: #3ABBB7;
+    cursor: pointer;
+}
+.plan_tooltip
+{   display:none; background-color:#fff; border:1px solid #ccc; width:276px; padding:12px; font-size:14px !important; margin-top:0; position:absolute; left:40px; top:50%; transform:translateY(-50%);
+}
+.help_icon_mobile .plan_tooltip p{
+    font-size: 14px;
+}
+.help_icon_mobile i{
+    color: #3ABBB7;
+}
+.plan_tooltip:before, .plan_tooltip:after
+{   content:""; display:block; height:0; width:0; border-bottom-style:solid; position:absolute; transform:rotate(270deg) translateY(-50%); -webkit-transform:rotate(270deg) translateY(-50%); -moz-transform:rotate(270deg) translateY(-50%);
+}
+.plan_tooltip:before
+{   border:inset 10px; border-color:transparent transparent #ccc transparent; left:-10px; top:50%; margin-top:-15px;
+}
+.plan_tooltip:after
+{   border:inset 8px; border-color:transparent transparent #fff transparent; left:-8px; top:50%; margin-top:-13px;
+}
+.plan_name
+{   margin:0 0 22px 0; color:#1c2e33;
+}
+.plan_dollar_sign
+{   vertical-align:top; font-weight:bold;
+}
+.plan_price
+{   font-size:48px; font-weight: bolder;
+}
+.plan_details_line_row
+{   padding: 12px;
+}
+.plan_details_line_row:nth-last-child(2){
+    border-top: 1px solid #c3c3c3;
+}
+.plan_hr
+{   margin:10px auto; width:70%; color:#fff; border-top:1px solid #f3f4f5;
+}
+.plan_label_badge_desktop
+{   padding:2px; background-color:#3abbb7; color:#fff; border-radius:10px 10px 0px 0px; text-transform:uppercase; width:70%; margin-left:auto; margin-right:auto; font-size:13px; font-weight:bold; margin-top:-58px;
+}
+.text_blue
+{   color:#3abbb7;
+}
+.text_green_1
+{   color:#5CA34A;
+}
+.btn_red
+{   color:#fff; background:#F1513E; border:1px solid transparent; margin-bottom:0;
+}
+.btn_red:hover
+{   background:#fff; border-color:#F1513E; color:#F1513E;
+}
+.plans_cms_section p
+{   font-size:16px; line-height:20px;
+}
+.plans_cms_section p.lead,
+.plans_cms_section .lead p
+{   font-size:20px; line-height:28px;
+}
+.terms a{
+    text-decoration: underline;
+}
+.plans_cms_section p a
+{   color:#3ABBB7;
+    text-decoration: underline;
+}
+.plans_cms_section .legal,
+.plans_cms_section .legal > p
+{   font-size:14px; line-height:24px; font-style:italic;
+}
+.plans_table_box_mobile
+{   border:6px solid #e9ebf3; border-radius:12px; background-color:#fff; width:100%; padding:10px 10px 20px 0;
+}
+.help_icon_mobile
+{   text-align:right; 
+}
+.desktop_none > .help_icon_mobile{
+    padding-top:10px;
+}
+.plans_side_border_mobile
+{   width:8px; height:90px; display:inline-block; border-radius:0 16px 16px 0; float:left;
+}
+.plans_side_border_grey
+{   background-color:#515151;
+}
+.plans_side_border_green
+{   background-color:#66c729;
+}
+.plans_side_border_blue
+{   background-color:#3abbb7;
+}
+.plan_detail_head_mobile
+{   display:flex; width:40%; float:left;
+}
+.plan_detail_left_mobile
+{   margin-left: 10px;
+}
+.plan_name_mobile
+{   margin:0 0 16px 0;
+}
+.plan_detail_right_mobile
+{   border-left:1px solid #f3f4f5; width:56%; margin-left:40%; padding-left:2%;
+}
+.plans_list_ul_mobile
+{   list-style:none; margin-left:2px !important;
+}
+.plans_list_li_mobile
+{   margin-bottom:6px; display:inline-flex;
+}
+.p_right_4
+{   padding-right:4px;
+}
+.plan_label_badge_mobile
+{   padding:2px; background-color:#3abbb7; color:#fff; border-radius:10px 10px 0px 0px; text-transform:uppercase; width:36%; margin-left:10px; font-size:13px; font-weight:bold; margin-top:-38px;
+}
+.float_none
+{   float:none;
+}
+.terms_section_blocks
+{   width:100%; float:left;
+}
+center.desktop_none
+{   margin:30px 0 20px; width:100%; float:left;
+}
+.desktop_none
+{   display:none;   
+}
+.help_hover_.open .plan_tooltip
+{   display:block;
+}
+.plan_currency{
+    margin-left: 5px;
+}
+@media only screen and (min-width: 836px)
+{   
+    .plans .plans_bg .plans_content .h1
+    {   margin:0;
+    }
+    .sk_columns, .sk_column
+    {   margin-left:4%; 
+    }
+    .sk_columns:first-child, .sk_column:first-child
+    {   margin-left:0;
+    }
+    .offset_by_one.sk_columns
+    {   margin-left:8.66666666667%;
+    }
+    .two.sk_columns
+    {   width:13.3333333333%;
+    }
+    .three.sk_columns
+    {   width:22%;
+    }
+    .eight.sk_columns
+    {   width:65.3333333333%; margin:0 auto
+    }
+    .one_half.sk_column
+    {   width:48%;
+    }
+    .help_hover_:hover .plan_tooltip
+    {   display:block;
+    }
+}
+@media only screen and (max-width:1139px)
+{   .plans .plans_bg .plans_content
+    {   width:100%;
+    }
+}
+@media only screen and (max-width:991px)
+{   .icon_list .lead
+    {   font-size:18px; line-height:22px;
+    }
+}
+@media only screen and (max-width:835px)
+{   
+    .plans_hero_banner{
+        background-image: url(https://images.prismic.io/zoleoinc/df759dbf-2e51-4efe-99e2-20b32eb1f7f0_page-zoleo-plans-m.jpg?auto=compress,format) !important;
+        padding: 100px 0;
+    }
+    .icon_list_bullet_desktop::before{
+        font-size: 8px;
+        top: -2px;
+    }
+    /*.plans_cms_section .p_top_40{
+        padding-top: 0;
+    }*/
+    .icon_list .lead
+    {   font-size:16px; line-height:24px;
+    }
+    .icon_list li
+    {   height:auto; margin:20px;
+    }
+    .mobile_none
+    {   display:none;
+    }
+    .desktop_none
+    {   display:block;
+    }
+    .bg_image > .container:last-child 
+    {   padding-top:0;
+    }
+    .bg_image > .container:last-child .three.sk_columns
+    {   margin:20px 0;
+    }
+    .plans .plans_bg .plans_content .h1, .bg_image h2
+    {   font-weight:500;
+    }
+    .plan_name
+    {   font-weight:500; font-size:18px;
+    }
+    .plans_list_li_mobile
+    {   clear:left;
+    }
+    .icon-checkmark
+    {   position:relative; top:5px;
+    }
+    .plan_tooltip
+    {   width:245px; left:auto; right:30px; z-index:1; text-align:left;
+    }
+    .plan_tooltip:before
+    {   left:auto; right:-10px;
+    }
+    .plan_tooltip:after
+    {   left:auto; right:-8px;   
+    }
+    .plan_tooltip:before, .plan_tooltip:after
+    {   transform:rotate(90deg) translateY(-50%); -webkit-transform:rotate(90deg) translateY(-50%); -moz-transform:rotate(90deg) translateY(-50%);
+    }
+    .terms_section_blocks
+    {   margin-top:-50px;
+    }
+    .terms_section_blocks h2
+    {   font-size:24px; font-weight:500;
+    }
+    .plan_tooltip p{
+        margin-bottom: 0;
+    }
+    .plan_tooltip p:first-child{
+        margin-top: 0;
+    }
+    .help_hover_:hover .plan_tooltip{
+        display: block;
+    }
+}
+@media only screen and (max-width:479px){   
+    .plans_list_li_mobile{   
+        font-size:14px;
+    }
+    .plan_price{   
+        font-size:36px;
+    }
+    .terms_section_blocks .one_half ul{   
+        padding-left:15px;
+    }
+}

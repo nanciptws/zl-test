@@ -1,0 +1,543 @@
+.hero_banner .badge{
+    display: flex;
+    margin: 20px auto;
+    position: relative;
+    float: none;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero_banner .hero_bg{
+	/*background-size: cover;
+  background-position: center;*/
+  padding: 200px 0 200px;
+  /*background-repeat: no-repeat;*/
+  position: relative;
+  z-index: 1;
+  width: 100vw;
+  max-width: 80vw;
+  margin: 0 auto;
+}
+.hero_banner .top_slider{
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100%;
+}
+.hero_banner .top_slider img{
+  width:100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.hero_banner .hero_bg .hero_content h1{
+  margin: 0;
+}
+.hero_banner .hero_bg .hero_content .lead,
+.hero_banner .hero_bg .hero_content .lead p{
+	font-size: 20px;
+	line-height: 1.4;
+  color: #fff;
+}
+.zoleo_connection{
+	padding-bottom: 50px;
+}
+.connection_bg{
+	padding: 50px 0;
+	background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.connection_bg .title{
+	text-align: center;
+	padding: 50px 0;
+}
+.connection_bg .title h2{
+  margin: 0;
+}
+.learn_links{
+	text-align: center;
+}
+.learn_links a{
+	color: #fff;
+    background: #66C729;
+    border-radius: 25px;
+    border: 1px solid #66C729;
+    padding: 16px 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 50px;
+    font-size: 14px;
+    line-height: 11px;
+}
+.learn_links a:hover{
+	background: #478B1D;
+    border: 1px solid #478B1D;
+}
+.connection_bg .col_list .icn_list{
+	padding: 0;
+	list-style: none;
+}
+.connection_bg .col_list .icn_list li{
+	display: flex;
+	margin-bottom: 10px;
+	font-size: 16px;
+	line-height: 24px;
+	align-items: center;
+    position: relative;
+    margin: 0 0 10px;
+    padding: 0px 0px 0px 35px;
+    min-height: 80px;
+}
+.connection_bg .col_list .icn_list li i{
+	position: absolute;
+    left: -50px;
+    top: 1px;
+}
+.how_zoleo_work .work_bg{
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.how_zoleo_work .work_bg .title{
+	text-align: center;
+	padding-top: 40px;
+}
+.how_zoleo_work .work_bg .title h2{
+  margin-bottom: 0;
+}
+.work_img img{
+	padding-bottom: 60px;
+}
+.global_network{
+	text-align: right;
+}
+.reviews_bg{
+	background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.52), rgba(245, 245, 245, 0.73));
+}
+.review_slide{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reviews_bg .title{
+	text-align: center;
+    padding: 50px 0 20px;
+}
+.reviews_bg .title h2{
+  margin: 0;
+}
+.reviews_bg .quotes quote .quotes_icon{
+  font-family: 'zoleo-icons';
+  font-size: 42px;
+  line-height: 0;
+}
+.reviews_bg .quotes quote{
+	font-size: 28px;
+  line-height: 40px;
+	font-family: 'AvenirNextLTPro-Demi';
+}
+.reviews_bg .quotes p{
+	font-size: 16px;
+}
+.reviews_bg .quotes p a{
+	color: #3ABBB7;
+  text-decoration: underline;
+}
+.reviews_bg .review_slider{
+	padding: 0 0 30px 0;
+  margin: 0;
+}
+.zoleo_home .slick-dots{
+	bottom: 15px;
+}
+.zoleo_home .slick-dots li button:before {
+	font-family: slick;
+    font-size: 16px;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    content: "";
+    transition: background ease-in 0.3s;
+    text-align: center;
+    opacity: 0.80;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    border: 1px solid #288380;
+}
+.zoleo_home .slick-dots li:hover button:before, 
+.zoleo_home .slick-dots li.slick-active button:before{
+	background: #288380;
+}
+.icon_circle_green_bg{
+	padding: .5em;
+    color: #fff;
+    font-size: 1em;
+    background: #66C729;
+    border-radius: 50%;
+}
+.icon_circle_red_bg{
+	padding: .5em;
+    color: #fff;
+    font-size: 1em;
+    background: #F1513E;
+    border-radius: 50%;
+}
+.why_zoleo .learn_links .blue_btn{
+  color: #fff;
+  background: #288380;
+    border: 1px solid #288380;
+    margin-left: 5px;
+}
+.why_zoleo .learn_links .blue_btn:hover{
+  color: #288380;
+    background: #fff;
+}
+.why_zoleo .title{
+	text-align: center;
+  padding: 50px 0 20px 0;
+}
+.why_zoleo .title h2{
+  margin: 0;
+}
+.why_zoleo .zoleo_data{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.why_zoleo .zoleo_data .table_main{
+	border: 6px solid #f1f4fa;
+    border-radius: 12px;
+    border-spacing: 0;
+    width: 100%;
+    padding: 0 0 12px 0;
+	table-layout: fixed;
+}
+.why_zoleo .zoleo_data .table_main td img{
+	width: 32px;
+}
+.why_zoleo .zoleo_data .table_main .td_middle_m{
+	text-align: center;
+}
+.why_zoleo .zoleo_data .table_main th:first-child, 
+.why_zoleo .zoleo_data .table_main td:first-child{
+	padding-left: 20px;
+	width: 40%;
+}
+.th_grey{
+	font-size: 20px;
+    background-color: #f1f4fa;
+    color: #394145;
+    text-align: left;
+    padding: 30px 20px 30px 20px;
+}
+.th_green{
+	font-size: 20px;
+    background-color: #66c729;
+    text-align: center;
+    padding: 30px 20px 30px 20px;
+    color: #fff;
+    width: 30%;
+}
+.th_blue{
+	font-size: 20px;
+    background-color: #3abbb7;
+    text-align: center;
+    padding: 30px 0 30px 0;
+    color: #fff;
+    border-radius: 0 6px 0 0;
+}
+.why_zoleo .zoleo_data .table_main td:not(:first-child), 
+.why_zoleo .zoleo_data .table_main td:not(:first-child){
+	border-left: 1px solid #f1f4fa;
+}
+.why_zoleo .zoleo_data .table_main td:first-child{
+	padding: 15px;
+    vertical-align: middle;
+}
+.rdps_slider.slick-slider.slick-dotted{
+	padding: 0;
+    margin: 0;
+}
+.rdps_content .rdps_homepage_carousel_content{
+	max-width: 80vw;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    width: 100vw;
+    padding: 10% 0;
+    color: #ffffff;
+}
+.rdps_content .rdps_homepage_carousel_content h2{
+  color: #ffffff;
+}
+.rdps_homepage_carousel_img{
+	position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100%;
+}
+.rdps_homepage_carousel_img img{
+	height: 100%;
+	width: 100%;
+}
+.zoleo_home .rdps_slider .slick-next{
+	right: 15px;
+}
+.zoleo_home .slick-next:before{
+	content: '\e9a2';
+    font: 25px "zoleo-icons"
+}
+.zoleo_home .rdps_slider .slick-prev{
+	left: 15px;
+	z-index: 1;
+}
+.zoleo_home .slick-prev:before{
+	content: '\e9a1';
+    font: 25px "zoleo-icons";
+}
+.business_bg h2{
+    text-align:center;
+}
+.business_bg p{
+    text-align:center;
+}
+.cntnt_algn{
+    text-align:center;
+}
+.business_bg{
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding:50px 0;
+}
+.partners_bg{
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 0 0;
+}
+.business_bg .learn_links {
+	color: #fff;
+    background: #66C729;
+    border-radius: 25px;
+    border: 1px solid #66C729;
+    padding: 16px 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 11px;
+}
+.business_bg .learn_links:hover{
+	background: #478B1D;
+    border: 1px solid #478B1D;
+}
+.use_zoleo_bg{
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0 0 50px 0;
+}
+.use_zoleo_bg .title{
+	text-align: center;
+}
+.use_zoleo_bg .title h2{
+  margin: 0;
+}
+.use_zoleo_bg .title .h6{
+  margin-top: 15px;
+  font-family: AvenirNextLTPro-Medium,Gill Sans,Gill Sans MT,Arial,sans-serif;
+  font-weight: 600;
+}
+.use_zoleo_bg .user_slider.slick-dotted.slick-slider{
+	padding: 0 0 80px;
+    margin: 0 6%;
+}
+.use_zoleo_bg .user_slider .slick-list .slick-slide > div{
+	margin: 50px 0 50px;
+}
+.use_zoleo_bg .user_slider .slick-prev:before, 
+.use_zoleo_bg .user_slider .slick-next:before{
+	color: #7a7a7a;
+}
+.use_zoleo_bg .user_name{
+  margin: 0;
+  text-align: center;
+  font-size: 18px;
+  color: #1c2e33;
+}
+.use_zoleo_bg .user_desc{
+  margin: 10px 0 20px 0;
+  text-align: center;
+  font-size: 14px;
+}
+.use_zoleo_bg a{
+  text-decoration: none;
+}
+.use_zoleo_bg .slick-prev{
+  left: -23px;
+}
+.use_zoleo_bg .slick-next{
+  right: -23px;
+}
+
+.connection_bg .col_image{
+  text-align:center;
+}
+
+.zoleo_home .use_zoleo_bg .user_slider .slick-list .slick-slide>div
+{
+margin:50px !important;
+}
+
+@media (min-width: 836px){
+.hero_banner .hero_bg .hero_content{
+	text-align: left;
+  color: #fff;
+  margin: 20px 0;
+}
+	.connection_bg .features{
+		display: flex;
+	}
+	.connection_bg .col_image{
+		width: 65.33%;
+    margin: auto;
+    padding-bottom: 40px;
+	}
+	.connection_bg .col_list{
+		width: 30.66%;
+	    padding-left: 40px;
+	    padding-right: 20px;
+	    margin: auto;
+	    box-sizing: border-box;
+	}
+	.work_content{
+		display: flex;
+    	padding: 60px 0 80px;
+    	align-items: center;
+    	justify-content: center;
+	}
+	.work_content p{
+		margin-top: 40px;
+    margin-bottom: 32px;
+	}
+  .work_content .global_network {
+    margin: auto 0 auto auto;
+  }
+  .work_content .global_network p{
+    padding-bottom: 20px;
+  }
+  .work_content .right_col{
+    margin: auto auto auto 0;
+  }
+	.work_content .global_network, .work_content .right_col{
+		width: 22%;
+	}
+	.work_content .work_img{
+		width: 48%;
+	}
+	.review_slide .img{
+		width: 22%;
+		margin-bottom: 60px;
+	}
+	.review_slide .quotes{
+		width: 56.66%;
+		margin-left: -20px;
+	}
+	.why_zoleo .zoleo_data{
+		width: 65.33%;
+		margin: auto;
+	}
+	.business_bg .img_description{
+		display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+	.business_img{
+		width: 33.33%;
+	}
+	.business_content{
+		width: 33.33%;
+		margin-left: 4%;
+	}
+.hero_banner .hero_bg{
+left:80px;
+}
+.crsl
+{
+width:50% !important;
+}
+}
+
+@media (max-width: 835px){
+  /*.hero_banner .hero_bg{
+    padding: 50px 0;
+    background-image: url(https://images.prismic.io/zoleoinc/056c703c-8b8e-4928-855e-522fbdfc9fe9_zoleo-home-page-winter-fall-m.jpg?auto=compress,format) !important;
+  }*/
+.hero_banner .hero_bg .hero_content{
+	text-align: center;
+  color: #fff;
+  margin: 20px 0;
+}
+  .connection_bg .col_list .icn_list{
+    padding-left: 40px;
+  }
+  .work_content{
+    padding: 60px 0 80px;
+  }
+  .global_network{
+    text-align: center;
+  }
+  .global_network .lead{
+    margin: 40px 0 20px;
+  }
+  .work_img{
+    margin-top: 80px;
+  }
+  .work_content .right_col{
+    text-align: center;
+  }
+  .review_slide{
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .th_green, .th_grey, .th_blue{
+    font-size: 16px;
+    padding: 15px 10px;
+  }
+  .business_bg .img_description{
+    text-align: center;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .business_img{
+    padding-bottom: 20px;
+  }
+  .crsl
+{
+width:90% !important;
+}
+}
+@media (max-width: 599px){
+  .why_zoleo .zoleo_data{
+    overflow: auto;
+  }
+  .connection_bg .col_list .icn_list{
+    padding-left: 50px;
+    padding-right: 10px;
+  }
+}

@@ -1,0 +1,64 @@
+
+
+
+/* common css */
+.cms_pages p{
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 2rem;
+}
+.cms_pages a{
+	color: #3ABBB7;
+	text-decoration: underline;
+}
+.text-right{
+	text-align: right;
+}
+@media (min-width: 836px){
+	.cms_inner{
+		text-align: left;
+		width: 65.33%;
+		margin: 80px auto;
+	}
+}
+@media (max-width: 835px){
+	.cms_pages ul{
+		padding-left: 20px;
+	}
+	.cms_inner{
+		margin: 40px auto;
+	}
+}
+
+/* common css end */
+
+/* terms & condition start */
+.terms_condition_inner ul, .terms_condition_inner ol{
+	padding-left: 20px;
+	margin: 10px 0;
+}
+.terms_condition_inner .main-list{
+	padding-left: 0;
+}
+.terms_condition_inner .m-left-60{
+	margin-left: 60px;
+}
+@media (min-width: 836px){
+	.terms_condition_inner{
+		text-align: left;
+		width: 65.33%;
+		margin: 80px auto;
+	}
+}
+@media (max-width: 835px){
+	.terms_condition_inner{
+		margin: 40px auto;
+	}
+	.terms_condition_inner .main-list{
+		padding-left: 10px;
+	}
+	.terms_condition_inner .m-left-60{
+		margin-left: 30px;
+	}
+}
+/* terms & condition end */

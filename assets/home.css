@@ -1,0 +1,452 @@
+.hero-banner .hero-bg{
+	background-size: cover;
+  background-position: center;
+  padding: 200px 0 100px;
+}
+.hero-banner .hero-bg .hero-content{
+	text-align: center;
+  color: #fff;
+  margin: 20px 0 32px;
+}
+.hero-banner .hero-bg .hero-content h1{
+  margin: 0;
+}
+.hero-banner .hero-bg .hero-content .lead{
+	font-size: 20px;
+	line-height: 1.4;
+  color: #fff;
+}
+.zoleo-connection{
+	padding-bottom: 50px;
+}
+.connection-bg{
+	padding: 50px 0;
+	background-size: cover;
+  background-position: center;
+}
+
+.connection-bg .title{
+	text-align: center;
+	padding: 50px 0;
+}
+.connection-bg .title h2{
+  margin: 0;
+}
+.learn-links{
+	text-align: center;
+}
+.learn-links a{
+	color: #fff;
+    background: #66C729;
+    border-radius: 25px;
+    border: 1px solid #66C729;
+    padding: 16px 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 50px;
+    font-size: 14px;
+    line-height: 11px;
+}
+.learn-links a:hover{
+	background: #478B1D;
+    border: 1px solid #478B1D;
+}
+.connection-bg .col-list .icn-list{
+	padding: 0;
+	list-style: none;
+}
+.connection-bg .col-list .icn-list li{
+	display: flex;
+	margin-bottom: 10px;
+	font-size: 16px;
+	line-height: 24px;
+	align-items: center;
+    position: relative;
+    margin: 0 0 10px;
+    padding: 0px 0px 0px 35px;
+    min-height: 80px;
+}
+.connection-bg .col-list .icn-list li i{
+	position: absolute;
+    left: -50px;
+    top: 1px;
+}
+.how-zoleo-work .work-bg{
+	background-size: cover;
+    background-position: center;
+}
+.how-zoleo-work .work-bg .title{
+	text-align: center;
+	padding-top: 40px;
+}
+.how-zoleo-work .work-bg .title h2{
+  margin-bottom: 0;
+}
+.work-img img{
+	padding-bottom: 60px;
+}
+.global-network{
+	text-align: right;
+}
+.reviews-bg{
+	background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.52), rgba(245, 245, 245, 0.73));
+}
+.review-slide{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reviews-bg .title{
+	text-align: center;
+    padding: 50px 0 20px;
+}
+.reviews-bg .title h2{
+  margin: 0;
+}
+.reviews-bg .quotes quote .quotes-icon{
+  font-family: 'zoleo-icons';
+  font-size: 42px;
+  line-height: 0;
+}
+.reviews-bg .quotes quote{
+	font-size: 28px;
+  line-height: 40px;
+	font-family: 'AvenirNextLTPro-Demi';
+}
+.reviews-bg .quotes p{
+	font-size: 16px;
+}
+.reviews-bg .quotes p a{
+	color: #3ABBB7;
+  text-decoration: underline;
+}
+.reviews-bg .review-slider{
+	padding: 0 0 30px 0;
+  margin: 0;
+}
+.zoleo-home .slick-dots{
+	bottom: 15px;
+}
+.zoleo-home .slick-dots li button:before {
+	font-family: slick;
+    font-size: 16px;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    content: "";
+    transition: background ease-in 0.3s;
+    text-align: center;
+    opacity: 0.80;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    border: 1px solid #288380;
+}
+.zoleo-home .slick-dots li:hover button:before, .zoleo-home .slick-dots li.slick-active button:before{
+	background: #288380;
+}
+.icon-circle-green-bg{
+	padding: .5em;
+    color: #fff;
+    font-size: 1em;
+    background: #66C729;
+    border-radius: 50%;
+}
+.icon-circle-red-bg{
+	padding: .5em;
+    color: #fff;
+    font-size: 1em;
+    background: #F1513E;
+    border-radius: 50%;
+}
+.why-zoleo .title{
+	text-align: center;
+  padding: 50px 0 20px 0;
+}
+.why-zoleo .title h2{
+  margin: 0;
+}
+.why-zoleo .zoleo-data{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.why-zoleo .zoleo-data .table-main{
+	border: 6px solid #f1f4fa;
+    border-radius: 12px;
+    border-spacing: 0;
+    width: 100%;
+    padding: 0 0 12px 0;
+}
+.why-zoleo .zoleo-data .table-main td img{
+	width: 32px;
+}
+.why-zoleo .zoleo-data .table-main .td-middle-m{
+	text-align: center;
+}
+.why-zoleo .zoleo-data .table-main th:first-child, .why-zoleo .zoleo-data .table-main td:first-child{
+	padding-left: 20px;
+	width: 40%;
+}
+.th-grey{
+	font-size: 20px;
+    background-color: #f1f4fa;
+    color: #394145;
+    text-align: left;
+    padding: 30px 20px 30px 20px;
+}
+.th-green{
+	font-size: 20px;
+    background-color: #66c729;
+    text-align: center;
+    padding: 30px 20px 30px 20px;
+    color: #fff;
+    width: 30%;
+}
+.th-blue{
+	font-size: 20px;
+    background-color: #3abbb7;
+    text-align: center;
+    padding: 30px 0 30px 0;
+    color: #fff;
+    border-radius: 0 6px 0 0;
+}
+.why-zoleo .zoleo-data .table-main td:not(:first-child), .why-zoleo .zoleo-data .table-main td:not(:first-child){
+	border-left: 1px solid #f1f4fa;
+}
+.why-zoleo .zoleo-data .table-main td:first-child{
+	padding: 15px;
+    vertical-align: middle;
+}
+.rdps-slider.slick-slider.slick-dotted{
+	padding: 0;
+    margin: 0;
+}
+.rdps-content .rdps-homepage-carousel-content{
+	max-width: 80vw;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    width: 100vw;
+    padding: 10% 0;
+    color: #ffffff;
+}
+.rdps-content .rdps-homepage-carousel-content h2{
+  color: #ffffff;
+}
+.rdps-homepage-carousel-img{
+	position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100%;
+}
+.rdps-homepage-carousel-img img{
+	height: 100%;
+	width: 100%;
+}
+.zoleo-home .rdps-slider .slick-next{
+	right: 15px;
+}
+.zoleo-home .slick-next:before{
+	content: '\e9a2';
+    font: 25px "zoleo-icons"
+}
+.zoleo-home .rdps-slider .slick-prev{
+	left: 15px;
+	z-index: 1;
+}
+.zoleo-home .slick-prev:before{
+	content: '\e9a1';
+    font: 25px "zoleo-icons";
+}
+.business-bg{
+	background-size: cover;
+    background-position: center;
+}
+.business-bg .learn-links {
+	color: #fff;
+    background: #66C729;
+    border-radius: 25px;
+    border: 1px solid #66C729;
+    padding: 16px 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 11px;
+}
+.business-bg .learn-links:hover{
+	background: #478B1D;
+    border: 1px solid #478B1D;
+}
+.use-zoleo-bg{
+	background-size: cover;
+    background-position: center;
+    padding: 50px 0 0;
+}
+.use-zoleo-bg .title{
+	text-align: center;
+}
+.use-zoleo-bg .title h2{
+  margin: 0;
+}
+.use-zoleo-bg .title h6{
+  margin-top: 15px;
+}
+.use-zoleo-bg .user-slider.slick-dotted.slick-slider{
+	padding: 0 0 80px;
+    margin: 0 6%;
+}
+.use-zoleo-bg .user-slider .slick-list li{
+	margin: 50px 0 50px;
+}
+.use-zoleo-bg .user-slider .slick-prev:before, .use-zoleo-bg .user-slider .slick-next:before{
+	color: #7a7a7a;
+}
+.use-zoleo-bg .user_name{
+  margin: 0;
+  text-align: center;
+  font-size: 18px;
+  color: #1c2e33;
+}
+.use-zoleo-bg .user_desc{
+  margin: 10px 0 20px 0;
+  text-align: center;
+  font-size: 14px;
+}
+.use-zoleo-bg a{
+  text-decoration: none;
+}
+.use-zoleo-bg .slick-prev{
+  left: -23px;
+}
+.use-zoleo-bg .slick-next{
+  right: -23px;
+}
+
+
+
+@media (min-width: 836px){
+	.connection-bg .features{
+		display: flex;
+	}
+	.connection-bg .col-image{
+		width: 65.33%;
+	    margin: auto;
+	    padding-bottom: 40px;
+	}
+	.connection-bg .col-list{
+		width: 30.66%;
+	    padding-left: 40px;
+	    padding-right: 20px;
+	    margin: auto;
+	    box-sizing: border-box;
+	}
+	.work-content{
+		display: flex;
+    	padding: 60px 0 80px;
+    	align-items: center;
+    	justify-content: center;
+	}
+	.work-content p{
+		margin-top: 40px;
+    margin-bottom: 32px;
+	}
+  .work-content .global-network {
+    margin: auto 0 auto auto;
+  }
+  .work-content .global-network p{
+    padding-bottom: 20px;
+  }
+  .work-content .right-col{
+    margin: auto auto auto 0;
+  }
+	.work-content .global-network, .work-content .right-col{
+		width: 22%;
+	}
+	.work-content .work-img{
+		width: 48%;
+	}
+	.review-slide .img{
+		width: 22%;
+		margin-bottom: 60px;
+	}
+	.review-slide .quotes{
+		width: 56.66%;
+		margin-left: -20px;
+	}
+	.why-zoleo .zoleo-data{
+		width: 65.33%;
+		margin: auto;
+	}
+	.business-bg .img-description{
+		display: flex;
+	    align-items: center;
+	    padding: 50px 0;
+	    justify-content: center;
+	}
+	.business-img{
+		width: 39.33%;
+	}
+	.business-content{
+		width: 39.33%;
+		margin-left: 4%;
+	}
+}
+
+@media (max-width: 835px){
+  .hero-banner .hero-bg{
+    padding: 50px 0;
+    background-image: url(https://images.prismic.io/zoleo-fuse/e5a49c71-2d40-4172-ae44-2fe075385b30_zoleo-home-page-winter-fall-m.jpg?auto=compress,format) !important;
+  }
+  .connection-bg .col-list .icn-list{
+    padding-left: 40px;
+  }
+  .work-content{
+    padding: 60px 0 80px;
+  }
+  .global-network{
+    text-align: center;
+  }
+  .global-network .lead{
+    margin: 40px 0 20px;
+  }
+  .work-img{
+    margin-top: 80px;
+  }
+  .work-content .right-col{
+    text-align: center;
+  }
+  .review-slide{
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .th-green, .th-grey, .th-blue{
+    font-size: 16px;
+    padding: 15px 10px;
+  }
+  .business-bg .img-description{
+    text-align: center;
+    padding: 50px 0 30px;
+  }
+  .business-img{
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 599px){
+  .why-zoleo .zoleo-data{
+    overflow: auto;
+  }
+  .connection-bg .col-list .icn-list{
+    padding-left: 50px;
+    padding-right: 10px;
+  }
+}

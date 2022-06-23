@@ -1,0 +1,131 @@
+.coverage_hero_banner{
+	background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.coverage_hero_banner .bhero_bg{
+	position: relative;
+	z-index: 1;
+}
+.global_coverage p{
+	margin-bottom: 32px;
+}
+.global_coverage p a{
+	text-decoration: underline;
+}
+.text_light,
+.text_light p{
+	color: #fff;
+}
+.coverage_hero_banner .bhero_bg .bhero_content{
+	text-align: center;   
+}
+.global_connectivity{
+	padding: 40px 0 0;
+}
+.global_connectivity h2 {
+	text-align: center;
+}
+.seamless_icon {
+	padding-bottom: 30px;
+	padding-top: 20px;
+	white-space: nowrap;
+}
+.seamless_icon i{
+	margin-right: 5px;
+}
+.two_col_right_text p a {
+	color: #3ABBB7;
+	font-style: normal;
+}
+.two_col_right_text p a:hover {
+	text-decoration: none;
+}
+.iridium {
+	background-size: cover;
+	background-position: center;
+	padding: 60px 0 40px;
+	background-repeat: no-repeat;
+}
+.iridium p {
+	font-size: 16px;
+	line-height: 24px;
+	align-items: center;
+}
+.iridium .legal p{
+	font-style: italic;
+	font-size: 14px;
+	line-height: 24px;
+}
+.iridium_network {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.iridium_network h2 {
+	text-align: center;
+	width: 48%;
+	margin: 28px auto;
+}
+/*.iridium_network .img_network {
+	padding-top: 30px;
+}*/
+@media (min-width: 836px) {
+	.iridium .two_col_left_text{
+		padding-bottom: 40px;
+	}
+	.two_col_left_text .img_right{
+		text-align: center;
+	}
+	.global_coverage .img_left {
+		width: 65.3333333333%;
+	}
+
+	.global_coverage .content_right {
+		width: 30.67%;
+	}
+	.noMargin{
+		margin: 0;
+	}
+	.global_connectivity .two_col_right_text{
+		padding-top: 40px;
+	}
+	.iridium .two_col_left_text .content_left {
+		width: 48%;
+	}
+}
+
+@media (max-width: 835px) {
+	.iridium{
+		padding: 100px 0 40px
+	}
+	.coverage_hero_banner{
+		padding: 80px 0;
+		/*background-image: url(https://images.prismic.io/zoleoinc/247b99b9-8329-4efe-a458-d06a3dd7e08d_truck-in-the-yukon-m.jpg?auto=compress,format) !important;*/
+	}
+	.global_coverage .global_connectivity {
+		background-image: none;
+		background-color: transparent;
+	}
+	.seamless_icon {
+		padding-top: 40px;
+	}
+	.iridium .two_col_left_text{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.iridium .two_col_left_text .content_left {
+	    text-align: center;
+	}
+	.iridium .two_col_left_text .img_right {
+	    text-align: center;
+	}
+	.iridium h2 {text-align: center;}
+	.iridium_network h2 {
+	    width: 100%;
+	}
+	.iridium .legal p{
+		text-align: center;
+	}
+}

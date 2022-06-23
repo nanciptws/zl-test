@@ -1,0 +1,79 @@
+.root {
+  @apply relative;
+}
+
+.buttonRight{
+  text-align: right;
+  margin: 50px 0 50px 0;
+  padding: 0 50px;
+}
+
+.button {
+  @apply h-10 px-2 rounded-md border border-accent-2 flex items-center justify-center transition-colors ease-linear;
+  display: inline !important;
+}
+
+.button:hover {
+  @apply border-accent-3 shadow-sm;
+}
+
+.button:focus {
+  @apply outline-none;
+}
+
+.dropdownMenu {
+  @apply fixed right-0 top-12 mt-2 origin-top-right outline-none bg-primary z-40 w-full h-full;
+
+  @screen lg {
+    @apply absolute border border-accent-1 shadow-lg w-56 h-auto;
+  }
+}
+
+.closeButton {
+  @screen md {
+    @apply hidden;
+  }
+}
+
+.item {
+  @apply flex cursor-pointer px-6 py-3 transition ease-in-out duration-150 text-primary leading-6 font-medium items-center;
+  text-transform: capitalize;
+  font-size: 14px;
+  padding: 5px 15px; 
+}
+
+.item:hover {
+  @apply bg-accent-1;
+}
+
+.icon {
+  transition: transform 0.2s ease;
+}
+
+.icon.active {
+  transform: rotate(180deg);
+}
+
+.nvabar_lang_drp{
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+}
+.nvabar_lang_drp img{
+  margin: -10px 5px 0 0;
+}
+
+.local_list{
+  position: absolute;
+    background: #fff;
+    right: 0;
+    width: 190px;
+    display: block !important;
+    box-shadow: 0px 0px 5px #686868;
+    border-radius: 0 0 5px 5px;
+    margin: 4px 0 0 0 !important;
+    padding: 5px 0 !important;
+}
+.local_list li > a:hover{
+  color: #66C729;
+}

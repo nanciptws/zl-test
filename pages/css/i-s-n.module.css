@@ -1,0 +1,164 @@
+.text_center {
+    text-align: center;
+}
+.margin_center {
+    margin: auto;
+}
+.sk_column h2 {
+	font-weight: 400;
+}
+.isn_hbanner{
+	background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.isn_hbanner .bhero_bg{
+    position: relative;
+    z-index: 1;
+}
+.isn_hbanner .bhero_bg .bhero_content{
+	text-align: center;
+    color: #fff;
+    margin: 20px 0 32px;
+}
+.isn_hbanner .bhero_bg .bhero_content .h1{
+    font-weight: 400;
+}
+.isn_hbanner .bhero_bg .bhero_content .lead,
+.isn_hbanner .bhero_bg .bhero_content .lead p {
+    font-size: 20px;
+    line-height: 1.4;
+    color: #fff;
+}
+.isn_block.first {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.isn_block.second .mobile, .isn_block.fourth .mobile {
+	display: none;
+}
+.isn_block.third {
+    /* background-image: url(./image/satellite-background-with-curves.jpg); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.isn_block.fourth {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.isn_block.third h2,.isn_block.third p {
+	color: #fff;
+	font-weight: 400;
+}
+.embed_container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.embed_container iframe {
+	position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.row:after {
+	content: "";
+    display: table;
+    clear: both;
+}
+.twelve.sk_columns {
+	width: 100%;
+    margin-left: 0;
+}
+.twelve.sk_columns p.legal,
+.twelve.sk_columns .legal p {
+    font: 14px/24px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+}
+.iridium_satellite_network p {
+    margin-bottom: 2rem;
+}
+.p_top_40 {
+    padding-top: 40px;
+}
+.p_top_50 {
+    padding-top: 50px;
+}
+.p_top_160 {
+    padding-top: 160px;
+}
+.p_bottom_50 {
+    padding-bottom: 50px;
+}
+.p_bottom_100 {
+    padding-bottom: 100px;
+}
+.p_bottom_160 {
+    padding-bottom: 160px;
+}
+
+.isn_block p {
+    font: 16px/24px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+}
+
+.iridium_satellite_network .isn_block a {
+    color: #3ABBB7;
+    font-style: normal;
+    text-decoration: underline;
+}
+.iridium_satellite_network .isn_block a:hover {
+    text-decoration: none;
+}
+
+@media (min-width: 836px){
+    .flex_wrap {
+        margin: 0 auto;
+        display: flex;
+        -webkit-box-align: center;
+	    -ms-flex-align: center;
+	    -ms-grid-row-align: center;
+	    align-items: center;
+	    -webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	    justify-content: center;
+    }
+    .eight.sk_columns {
+        width: 65.3333333333%;
+    }
+    .about_zoleo_inc_cms_section_block .sk_column:nth-child(2) {
+        margin-left: 4%;
+    }
+    
+}
+
+@media (max-width: 835px) {
+    .embed_container{
+        height: 100%;
+        padding: 0;
+    }
+    .embed_container iframe {
+        position: relative;
+        height: 270px;
+    }
+    .isn_block.second .mobile, .isn_block.fourth .mobile {
+		display: block;
+	}
+	.isn_block.second .desktop, .isn_block.fourth .desktop {
+		display: none;
+	}
+	.isn_block.second .p_top_40, .isn_block.five .p_top_40 {
+	    padding-top: 0px;
+	}
+    .isn_block.second,.isn_block.fourth {
+    	text-align: center;
+    }
+    .isn_block.fourth p {
+    	padding-top: 20px;
+    }
+}

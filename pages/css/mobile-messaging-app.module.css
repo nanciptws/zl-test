@@ -1,0 +1,523 @@
+.mobile_messaging_app ul, .mobile_messaging_app ol
+{   padding:0; margin:0; list-style:none;
+}
+.mobile_messaging_app p a{
+    text-decoration: underline;
+}
+.text_center {
+    text-align: center;
+}
+.margin_center
+{   margin:auto !important;
+}
+.mobile_messaging_app p {
+    margin-bottom: 2rem;
+}
+.m_top_80 {
+    margin-top: 80px;
+}
+.m_bottom_40 {
+    margin-bottom: 40px !important;
+}
+.p_top_20{
+    padding-top: 20px;
+}
+.p_top_40 {
+    padding-top: 40px;
+}
+.p_top_50 {
+    padding-top: 50px;
+}
+.p_top_80 {
+    padding-top: 80px;
+}
+.p_top_100 {
+    padding-top: 100px;
+}
+.p_bottom_5
+{   padding-bottom:5px
+}
+.p_bottom_10 {
+    padding-bottom: 10px;
+}
+.p_bottom_20 {
+    padding-bottom: 20px;
+}
+.p_bottom_40 {
+    padding-bottom: 40px;
+}
+.p_bottom_50 {
+    padding-bottom: 50px;
+}
+.p_bottom_80 {
+    padding-bottom: 80px;
+}
+.p_bottom_100 {
+    padding-bottom: 100px;
+}
+.p_bottom_300
+{   padding-bottom:300px;
+}
+.p_right_10
+{   padding-right:10px;
+}
+.text_light,
+.text_light p {
+    color: #fff;
+}
+.p_left_10 {
+    padding-left: 10px;
+}
+.mobile_messaging_app .p_left_50 {
+    padding-left: 50px;
+}
+.apple_store img{
+    width: 160px;
+}
+.google_play, .apple_store {
+    text-decoration: none;
+}
+.google_play img {
+    width: 190px;
+    box-sizing: border-box;
+}
+.mobile_messaging_app_hero_bg {
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.mobile_messaging_app p.lead,
+.mobile_messaging_app .lead p {
+    font: 20px/28px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+}
+.mobile_messaging_app_cms_section a {
+    color: #3ABBB7;
+    font-style: normal;
+}
+.cms_section_block p a:hover {
+    text-decoration: none;
+}
+.icon_list_right {
+    list-style: none;
+    text-align: right;
+}
+.cms_section_block ul li {
+    font: 16px/24px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+}
+.mobile_messaging_app ul{
+    margin: 0 0 0 0;
+    padding: 0;
+    color: #1c2e33;
+    font: 14px/24px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+}
+.noMarginRight
+{   margin-right:0px !important;
+}
+.noMarginLeft
+{   margin-left:0px !important;
+}
+.icon_list_right {
+    list-style: none;
+    text-align: right;
+}
+.icon_list_right li {
+    position: relative;
+    margin: 0 0 10px;
+    padding: 0;
+    min-height: 80px;
+}
+.li_vertical_centre_right {
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row-reverse;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.icon_circle_bg {
+    padding: .5em;
+    color: #fff;
+    font-size: 2em;
+    background: #3ABBB7;
+    border: .2em solid #cce9ed;
+    border-radius: 50%;
+}
+.icon_list li {
+    position: relative;
+    margin: 0 0 10px;
+    padding: 0px 0px 0px 35px;
+    min-height: 80px;
+}
+.li_vertical_centre {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.icon_list li i {
+    position: absolute;
+    left: -50px;
+    top: 1px;
+}
+.m_left_10 {
+    margin-left: 10px;
+}
+.icon_list {
+    list-style: none;
+    margin-left: 0;
+}
+.mobile_messaging_app_cms_section .legal,
+.mobile_messaging_app_cms_section .legal p {
+    font: 14px/24px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+}
+.mobile_messaging_app_cms_section ul li 
+{   font: 16px/24px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif
+}
+
+.mobile_messaging_app_cms_section.second .cms_section_block {
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.mobile_messaging_app_cms_section .text_light h2, 
+.mobile_messaging_app_cms_section .text_light .lead, 
+.mobile_messaging_app_cms_section .text_light p, 
+.text_light ul li {
+    color: #fff;
+}
+.mobile_messaging_app_cms_section.third .cms_section_block {
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.mobile_messaging_app_cms_section.fourth .cms_section_block {
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg_gray_3 {
+    background-color: #F1F4FA;
+}
+
+.mobile_messaging_app_cms_section .icon_list {
+    list-style: none;
+    margin-left: 0;
+}
+
+.mobile_messaging_app_cms_section .icon_list li {
+    position: relative;
+    margin: 0 0 10px;
+    padding: 0px 0px 0px 35px;
+    min-height: 80px;
+}
+.mobile_messaging_app_cms_section .icon_list li i {
+    position: absolute;
+    left: -50px;
+    top: 1px;
+}
+.mobile_messaging_app_cms_section .icon_list .icon_circle_green_border_bg {
+    padding: .5em;
+    color: #fff;
+    font-size: 2em;
+    background: #66c729;
+    box-shadow: 0px 0px 0px 8px rgb(102 199 41 / 50%);
+    border-radius: 50%;
+}
+.offset_by_one.sk_column, .check_in_with_ease_img {
+    float: left;
+}
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.icon_list .lead, .icon_list .lead p
+{   font:20px/28px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+margin: 0;
+}
+
+
+.mobile_messaging_app h5 
+{   font:20px/22px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif; letter-spacing:0; font-weight:normal;
+}
+.text_light h5 
+{   color:#fff;
+}
+.img_responsive
+{   display:block; margin:0 auto; text-align:center;
+}
+.mobile_messaging_app_cms_section p
+{   font-size:16px; line-height:24px;
+}
+.mobile_messaging_app_cms_section p.lead,
+.mobile_messaging_app_cms_section .lead p
+{   font-size:20px; line-height:28px;
+}
+.mobile_messaging_app_cms_section p a
+{   color:#3ABBB7;
+}
+.bg_image
+{   background-repeat:no-repeat; background-size:cover; background-position:center;   
+}
+.bc_nine
+{   padding-top:100px; /*padding-bottom:56px;*/
+}
+.bc_nine .gmo_slide_cont
+{   width:100%; float:left;
+}
+.o_hidden
+{   overflow:hidden;
+}
+.bc_nine{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.52), rgba(245, 245, 245, 0.73));
+}
+.first h2{
+    margin-bottom: 0;
+}
+.first .middle_sec{
+    line-height: 0;
+}
+.second .twelve{
+    line-height: 0;
+}
+.images{
+    line-height: 0;
+}
+.mobile_messaging_app .bc_nine .container{
+    padding-bottom: 50px;
+}
+@media (min-width:836px)
+{   .sk_columns, .sk_column 
+    {   margin-left:4%;
+    }
+    .mobile_messaging_app h1{
+        margin: 0;
+    }
+    .sk_columns:first-child
+    {   margin-left:0;
+    }
+    .five.sk_columns
+    {   width:39.3333333333%;
+    }
+    .seven.sk_columns
+    {   width:56.6666666667%;
+    }
+    .flex_wrap
+    {   margin:0 auto; display:flex;
+    }
+    .d_flex
+    {   display:flex; justify-content:center;
+    }
+    .d_v_flex
+    {   display:flex; align-items:center; justify-content:center;   
+    }
+    .d_flex_start
+    {   display:flex; justify-content:flex-start;
+    }
+    .flex_wrap.flex_center
+    {   align-items:center; justify-content:center;
+    }
+    .three.sk_columns
+    {   width:22%;
+    }
+    .one_third.sk_columns, .one_third.sk_column
+    {   width:30.6666666667%;
+    }
+    .offset_by_one.sk_column
+    {   margin-left:8.66666666667%; width:30.6666666667%;
+    }
+    .bc_nine .seven{
+        margin-left: -20px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 836px){
+    .mobile_messaging_app_cms_section.fourth .cms_section_block{
+        padding-bottom: 50px;
+    }
+}
+@media (max-width: 835px){
+    .mobile_messaging_app_hero_bg{
+        background-image:url(https://images.prismic.io/zoleoinc/c98efe8c-03b0-4cad-8de8-4b7642f7facd_zoleo-satellite-mobile-messaing-app-banner-m.jpg?auto=compress,format) !important;       
+        padding: 40px 0 60px;
+    }
+    .first .mobile_swap{
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+    }
+    .first .mobile_swap .left_sec{
+        order: 1;
+        width: 100%;
+    }
+    .first .mobile_swap .middle_sec{
+        text-align: center;
+    }
+    .mobile_messaging_app_cms_section .left_sec ul li{
+        flex-direction: row;
+        text-align: left;
+    }
+    .first .mobile_swap .right_sec{
+        order: 2;
+        width: 100%;
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+    .mobile_messaging_app_cms_section .right_sec ul li{
+        padding-left: 0;
+    }
+    .first .mobile_swap .right_sec i{
+        position: static;
+        margin-right: 10px;
+    }
+    .mobile_messaging_app_cms_section .icon_circle_bg{
+        margin-left: 0;
+    }
+    .first .cms_section_block .p_top_40{
+        padding-top: 10px;
+    }
+    .mobile_messaging_app_cms_section.second .cms_section_block{
+        background-image: url(https://images.prismic.io/zoleoinc/91b40fd0-6018-4794-815c-6a2f62279315_road-through-foggy-mountains-m.jpg?auto=compress,format) !important;
+    }
+    .global_message .cms_section_block .margin_center{
+        text-align: center;
+    }
+    .global_message .cms_section_block .p_bottom_80{
+        padding-bottom: 50px;
+    }
+    .something_good .title{
+        padding-bottom: 0;
+    }
+    .something_good .title h2{
+        margin-bottom: 0;
+    }
+    .something_good{
+        text-align: center;
+    }
+    .something_good .mobile_swap{
+        flex-direction: column-reverse;
+        display: flex;
+        padding-bottom: 50px;
+    }
+    .mobile_messaging_app_cms_section.third .cms_section_block{
+        background-image: url(https://images.prismic.io/zoleoinc/3b4ba8ed-54a2-4dbc-9ddc-0adcae7c23c4_outdoors-transparent-background-m.jpg?auto=compress,format) !important;
+    }
+    .get_weather_forecasts .mobile_swap{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 0;
+        text-align: center;
+    }
+    .get_weather_forecasts .icon_list, .check_in_with_ease .icon_list, .bc_seven .mobile_swap .icon_list {
+        padding-left: 0;
+    }
+    .get_weather_forecasts .icon_list li, .check_in_with_ease .icon_list li, .bc_seven .mobile_swap .icon_list li{
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: unset;
+        margin-bottom: 0 !important;
+    }
+    .check_in_with_ease .icon_list li p, .bc_seven .mobile_swap .icon_list li p{
+        font-size: 16px;
+        line-height: 24px;
+        margin: 16px 0 32px;
+        text-align: center;
+    }
+    .get_weather_forecasts .icon_list li i, .check_in_with_ease .icon_list li i, .bc_seven .mobile_swap .icon_list li i{
+        position: static;
+        margin: auto;
+    }
+    .mobile_messaging_app_cms_section.fourth .cms_section_block{
+        background-image: url(https://images.prismic.io/zoleoinc/33e3250a-829d-47a3-8a99-f3701b1c5933_sunny-country-road-m.jpg?auto=compress,format) !important;
+    }
+    .bc_six .title{
+        padding-bottom: 0;
+    }
+    .bc_six .mobile_swap{
+        display: flex;
+        flex-direction: column;
+    }
+    .bc_six .mobile_swap .left{
+        order: 1;
+    }
+    .bc_six .mobile_swap .left h5{
+        text-align: center;
+    }
+    .bc_six .mobile_swap .left li{
+        display: flex;
+        align-items: center;
+    }
+    .bc_six .mobile_swap .right{
+        order: 1;
+        text-align: center;
+    }
+    .bc_six .mobile_swap .middle{
+        text-align: center;
+    }
+    .bc_seven .mobile_swap{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 0;
+    }
+    .bc_seven .mobile_swap img{
+        position: relative;
+        left: -10%;
+    }
+    .bc_seven .mobile_swap .icon_list li > br{
+        display: none;
+    }
+    .bc_seven .mobile_swap .icon_list li .legal{
+        margin: 16px 0 32px;
+    }
+    .bc_eight .bg_image{
+        background-image: unset !important;
+        background-color: #515151;
+        text-align: center;
+    }
+    .bc_nine{
+        text-align: center;
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.52), rgba(245, 245, 245, 0.73));
+    width: 100%;
+    }
+    .bc_nine img{
+        display: inline-block !important;
+    }
+    .check_in_with_ease .seven{
+        overflow: hidden;
+    }
+    .check_in_with_ease .seven img{
+        position: relative;
+        right: -10%;
+    }
+    .first .icon_list_right i{
+        margin-right: 10px;
+        margin-left: 0;
+    }
+    .check_in_with_ease .p_top_40.p_bottom_50{
+        padding-top: 0;
+    }
+}
+@media (max-width: 480px){
+    .mobile_messaging_app_hero_bg .five > a{
+        float: left;
+        clear: both;
+    }
+    .google_play img{
+        padding-left: 0;
+        width: 180px;
+    }
+}

@@ -1,0 +1,431 @@
+.p{
+	margin-bottom: 32px;
+}
+.p p{
+	margin-bottom: 32px;
+}
+.p a{
+	text-decoration: underline;
+}
+.p_small p{
+	font-size: 16px;
+    line-height: 24px;
+}
+.legal, .legal p{
+	font-size: 14px;
+	line-height: 24px;
+}
+.p_small{
+	font-size: 16px;
+    line-height: 24px;
+}
+.msrp{
+	font-size: 16px;
+	line-height: 24px;
+}
+.text_light, .text_light p{
+	color: #ffffff;
+}
+.noMarginBottom{
+	margin-bottom: 0;
+}
+.noMarginTop{
+	margin-top: 0;
+}
+.text_green{
+	color: #66c729;
+}
+.align_center{
+	text-align: center;
+}
+.full_bg{
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.dollar_sign{
+	font-size: 16px;
+	vertical-align: top;
+}
+.msrp_price{
+	font-size: 40px;
+    font-weight: 900;
+    margin-top: 8px;
+}
+.p_40{
+	padding: 40px 0;
+}
+.top_banner{
+	padding: 50px 0;
+}
+.top_banner .currency{
+	margin-left: 5px;
+}
+.top_banner .top_btn{
+	margin-bottom: 0;
+	position: relative;
+    top: -10px;
+    margin-left: 20px;
+}
+.coverage_gap{
+	padding: 50px 0 90px;
+}
+.one_third{
+	padding-bottom: 10px;
+}
+.features{
+	padding: 40px 0 50px;
+}
+.features .title{
+	padding-bottom: 40px;
+}
+.safety_feature{
+	text-align: center;
+}
+.safety_feature .title{
+	padding: 80px 0 40px;
+}
+.safety_feature .three_col p, .safety_bottom p{
+	font-size: 16px;
+	line-height: 24px;
+}
+.safety_feature .blue_link, .safety_feature a{
+	text-decoration: underline;
+}
+.share_location{
+    text-align: center;
+	padding: 50px 0 50px; 
+}
+.share_location ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.share_location .content_right{
+	text-align: left;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+.share_location .features_title{
+	font-size: 20px;
+	line-height: 22px;
+	margin: 33px 0;
+	display: block;
+	font-weight: normal;
+}
+.share_location ul li{
+	display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.share_location ul li img{
+	padding: 0 10px;
+}
+.reviews_bg{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.52), rgba(245, 245, 245, 0.73));
+}
+.reviews_bg .slick-dotted.slick-slider{
+	margin-bottom: 0;
+}
+.reviews_bg .slick-dots{
+	display: none !important;
+}
+.review_slide{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.reviews_bg .title{
+	text-align: center;
+    padding: 50px 0 20px;
+    opacity: 0;
+}
+.reviews_bg .quotes quote .quotes_icon{
+  font-family: 'zoleo-icons';
+  font-size: 42px;
+  line-height: 0;
+}
+.reviews_bg .quotes quote{
+	font-size: 28px;
+  line-height: 40px;
+	font-family: 'AvenirNextLTPro-Demi';
+}
+.reviews_bg .quotes p{
+	font-size: 16px;
+}
+.reviews_bg .quotes p a{
+	color: #3ABBB7;
+	text-decoration: underline;
+}
+.reviews_bg .quotes p a:hover{
+	text-decoration: none;
+}
+.reviews_bg .review_slider{
+	padding: 0;
+    margin: 0;
+}
+.icn_list li{
+	display: flex;
+}
+.in_box .two_col .one_half iframe{
+	max-width: 100%;
+}
+.in_box{
+	padding: 40px 0 60px;
+}
+.free_app{
+	padding: 40px 0 80px;
+}
+.free_app .title{
+	padding-bottom: 20px;
+}
+.free_app .one_half{
+	margin: auto;
+}
+.experience{
+	padding: 40px 0 80px;
+}
+.tech_specs .three ul{
+	padding-left: 20px;
+	margin: 0;
+}
+.tech_specs .row{
+	display: inline-block;
+	width: 100%;
+	padding: 20px 0 40px;
+}
+.tech_specs .trow:last-child hr{
+	display: none;
+}
+.specs_btn{
+	text-align: center;
+}
+@media (min-width: 836px){
+	.h1{
+		margin: 0;
+	}
+	.top_banner .half_content{
+		display: flex;
+    	justify-content: flex-end;
+	}
+	.top_banner .half_content .content{
+		width: 48%;
+	}
+	.title{
+		width: 56.67%;
+		margin: 0 auto;
+	}
+	.two_col{
+		display: flex;
+		justify-content: center;
+	}
+	.one_third{
+		width: 30.6666666667%;
+	}
+	.one_third.content img{
+		float: left;
+	    width: 40%;
+	    padding-right: 20px;
+	    box-sizing: border-box;
+	}
+	.one_third .p_small:last-child{
+		padding-top: 40px;
+	}
+	.two_col .one_third.img_right{
+		margin-left: 4%;
+	}
+	.tech_specs .three{
+		float: left;
+		box-sizing: border-box;
+	}
+	hr.specs_hr{
+		margin: 10px auto;
+	    padding: 10px 0;
+	    width: 100%;
+	    color: #fff;
+	    border: none;
+	    border-top: 1px solid #3abbb7;
+	}
+	.full_img{
+		width: 82.67%;
+		margin: auto;
+	}
+	.safety_bottom {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 20px 0 120px;
+	}
+	.safety_bottom .col_text, .safety_bottom .center_col_img_one, .safety_bottom .center_col_img_two{
+		width: 13.33%;
+	}
+	.safety_bottom .left_col{
+		text-align: right;
+	}
+	.safety_bottom .right_col{
+		text-align: left;
+	}
+	.share_location .img_left{
+		text-align: center;
+	}
+	.share_location .img_left img{
+		width: 540px;
+	}
+	.review_slide .img{
+		width: 22%;
+		margin-bottom: 60px;
+	}
+	.review_slide .quotes{
+		width: 56.66%;
+		margin-left: -20px;
+	}
+	.in_box .one_third, .in_box .one_half{
+		margin: auto;
+	}
+	.experience .two_col{
+		align-items: center;
+	}
+	.experience .prod_img{
+		width: 39.33%;
+	}
+	.experience .two_col .right_col{
+		margin-left: 4%;
+	}
+	.experience .two_col .left_col{
+		margin-right: 4%;
+	}
+	.tech_specs .three:first-child{
+		width: 20%;
+	}
+	.tech_specs .three:not(:first-child){
+		width: 35%;
+		margin-left: 4%;
+	}
+}
+@media (min-width: 992px){
+	hr.specs_hr{
+		width: 70%;
+	}
+	.tech_specs .three:first-child{
+		margin-left: 17.3333333333%;
+		width: 13.33%;
+	}
+	.tech_specs .three:not(:first-child){
+		width: 22%;
+		margin-left: 4%;
+	}
+}
+@media (min-width: 836px) and (max-width: 1199px){
+	.title{
+		width: 70%;
+	}
+	.coverage_gap .one_third{
+		width: 48%;
+	}
+	.coverage_gap .one_third:last-child{
+		text-align: center;
+	}
+	.safety_feature .three_col .col_text{
+		width: 30%;
+	}
+	.safety_bottom .col_text{
+		width: 35%;
+	}
+	.safety_bottom .center_col_img_one, .safety_bottom .center_col_img_two{
+		width: 15%;
+	}
+	.one_third.content img{
+		width: 35%;
+	}
+}
+@media (max-width: 540px){
+	.top_banner{
+		min-height: 100vh;
+	}
+}
+
+@media (max-width: 835px){
+	.top_banner{
+		text-align: center;
+		padding: 10px 0;	
+	}
+	.top_banner .msrp{
+		margin-top: -15px;
+	}
+	.top_banner .award_img{
+		display: block;
+    	margin: 5px auto 0;
+	}
+	.top_banner .wtb_top{
+		display: block;
+	}
+	.top_banner .top_btn{
+		position: static;
+    	margin: 15px 0 0 0;
+	}
+	.coverage_gap .one_third{
+		text-align: center;
+	}
+	.coverage_gap .one_third .p_small:last-child, .coverage_gap .one_third .p_small:last-child p{
+		margin-bottom: 0;
+	}
+	hr.specs_hr{
+		margin: 10px auto;
+	    padding: 10px 0;
+	    width: 70%;
+	    color: #fff;
+	    border: none;
+	    border-top: 1px solid #3abbb7;
+	}
+	.three .lead{
+		margin: 20px 0;
+	}
+	.safety_feature .title{
+		padding-bottom: 0;
+	}
+	.safety_feature{
+		/*background-image: url(https://images.prismic.io/zoleoinc/498278cf-3427-4c34-98e2-0539509be7ab_road-through-foggy-mountains-with-wave-m.jpg?auto=compress,format) !important;*/
+		padding-bottom: 60px;
+	}
+	.safety_feature .left_col.col_text.mobile_only{
+		margin-bottom: 80px;
+	}
+	.share_location .img_left img{
+		width: 340px;
+	}
+	.review_slide{
+	    flex-direction: column;
+	    text-align: center;
+	}
+	.experience{
+		text-align: center;
+		padding-bottom: 40px; 
+	}
+	.experience .mobile_prod{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.experience .two_col:nth-child(2) .prod_img img{
+		padding: 0 10px 0 0;
+    	box-sizing: border-box;
+	}
+	.experience .mobile_prod .prod_img img{
+		padding-left: 20px;
+		box-sizing: border-box;
+	}
+	.in_box .two_col{
+		display: flex;
+		flex-direction: column-reverse;
+		text-align: center;
+	}
+	.in_box .two_col .one_half{
+		padding-bottom: 30px;
+	}
+	.in_box .two_col .one_half iframe{
+		max-width: 100%;
+	}
+	.icn_list li{
+		text-align: left;
+	}
+}

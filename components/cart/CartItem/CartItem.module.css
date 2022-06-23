@@ -1,0 +1,38 @@
+.cart_item{
+  list-style: none;
+  padding: 0 0 20px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eaeaea; 
+}
+
+.removing_product {
+  opacity: 0.3;
+  cursor: no-drop;
+}
+
+.li_product{
+  display: flex;
+}
+
+.li_product_image{
+  width: 15%;
+}
+
+.li_product_details{
+  width: 60%;
+  padding: 10px 25px 0 25px;
+}
+
+.li_product_price{
+  width: 25%;
+  text-align: right;
+  padding: 10px 0 0 0;
+}
+
+
+
+@media (max-width: 991px){
+	.li_product_details{
+    padding: 0px 25px 10px 25px;
+  }
+}

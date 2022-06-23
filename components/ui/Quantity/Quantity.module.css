@@ -1,0 +1,37 @@
+.item_actions{
+  display: flex;
+}
+
+.removing_product{
+  background-color: aqua;
+}
+
+.action_button{
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  cursor: pointer;
+}
+.action_button[disabled]{
+  cursor: no-drop;
+}
+.action_button:not([disabled]):hover{
+  background-color: #66C729;
+  color: #fff;
+  border-color: #66C729;
+}
+
+.action_qty{
+  width: 100%;
+  padding-left: 10px;
+}
+.action_qty input{
+  border: 1px solid #eaeaea;
+  border-radius: 0;
+  cursor: default;
+}
+
+.action_button_cross:hover{
+  background-color: #F1513E;
+  color: #fff;
+  border-color: #F1513E;
+}

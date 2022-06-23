@@ -1,0 +1,687 @@
+.text_center
+{   text-align:center;
+}
+.productView
+{   width:100%; padding-top:40px;display: flex;flex-direction: column;position:relative;
+}
+.productView_image
+{   min-height:650px; display:flex; align-items:center; justify-content:center;
+}
+.price_section .p_label
+{   font-size:11px; display:block; margin-top:3px;
+}
+.price_section .p_price
+{   font-size:40px; line-height:normal; display:block; margin-top:5px; margin-bottom:28px;
+}
+.price_section .p_price small
+{   font-size:16px; position:relative; top:-7px;
+}
+.buy_btn_section .ck_link
+{   margin-left:10px; color:#3ABBB7;
+}
+.contents p, .contents li
+{   font-size:16px; line-height:24px;
+}
+.contents ul
+{   padding-left:18px;
+}
+.productView_Additionals
+{   width:100%; float:left; background-repeat:no-repeat; background-size:cover; background-position:center;
+    padding:40px 0;
+}
+.specs_list
+{   display:flex; justify-content:center; margin:0 -15px 50px;
+}
+.specs_hr
+{   margin:10px auto; padding:0; width:75%; max-width:755px; color:#fff; border-top:1px solid #3abbb7;
+}
+.specs_list > div
+{   width:33.33%; padding:0 15px; max-width:350px;
+}
+.specs_list .specs_left > span
+{   font-size:20px; font-weight:700; display:block; margin-bottom:35px; margin-top:16px;
+}
+.specs_list .specs_left > img
+{   max-height:320px;
+}
+.specs_list .specs_right ul
+{   padding-left:18px;
+}
+.specs_left_content p{
+  margin: 0 0 10px 0;
+}
+
+.pro_desc .specs_mn:last-child hr {
+  display: none;
+}
+.sale_label{
+    display: block;
+    color: #66C729;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px 0;
+    font-family: 'AvenirNextLTPro-Demi';
+}
+.old_price{
+    font-size: 22px;
+    text-decoration: line-through;
+    color: #898989;
+}
+.social_share{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 20px 0 30px;
+}
+.social_share li{
+    padding: 0 5px; 
+}
+.social_share a{
+    color: #757575;
+    text-decoration: none;
+}
+.social_share path{
+    fill: #757575;
+}
+.productView_Additionals .title{
+    background-color: #eeeeee;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.productView_Additionals .title h2{
+    font-size: 16px;
+    line-height: 20px;
+    color: #1c2e33;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: AvenirNextLTPro-Demi;
+    padding: 20px 0;
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    margin: 0;
+}
+.productView_Additionals .title h2:after{
+    content: '';
+    display: block;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    transition: height ease-in 0.2s;
+    position: absolute;
+    background-color: #1c2e33;
+    height: 4px;
+}
+.currency_code{
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.include_tax{
+    font-size: 18px;
+    margin: -15px 0 40px 0;
+}
+
+.yotpo_below_title{
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+.yotpo_below_title.yotpo a {  
+    
+    color: #0bceff !important;
+    font-style: italic !important;
+    padding: 0 0 2px 0;
+    border-bottom: 1px solid #0bceff !important;
+    margin: 0 0 0 10px;
+    font: 14px/15px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial !important;
+}
+.yotpo_below_title.yotpo a:hover {   
+    color: #000 !important;
+    border-color: #000 !important;
+}
+.wtb_btn{
+    margin: -20px 0 20px;
+}
+
+@media (min-width: 768px){
+    .productView_details
+    {   width:50%; float:left; padding:0 40px;
+    }
+    .productView_images{
+        width:50%; float:left; padding:0 20px;
+    }
+    .productView_title
+    {   margin:0 auto 10px; width:50%; float:right; padding:0 40px;
+        font-size: 42px;
+    }
+    
+    .yotpo_below_title {   
+        margin: 10px 0 !important;
+        width: 50%;
+        float: right;
+        padding: 0 40px !important;
+        color: #000;
+    }
+    .yotpo_below_title.yotpo a {   
+        color: #0bceff !important;
+        font-style: italic !important;
+        font-size: 14px;
+        padding: 0 0 2px 0;
+        border-bottom: 1px solid #0bceff !important;
+        margin: 0 0 0 10px;
+    }
+    .yotpo_below_title.yotpo a:hover {   
+        color: #000 !important;
+        border-color: #000 !important;
+    }
+}
+@media (min-width: 768px) and (max-width:1199px)
+{   .productView_images, .productView_details, .productView_title
+    {   padding:0 15px;
+    }
+    .yotpo_below_title {   
+        padding:0 15px !important;
+    }
+
+}
+
+@media only screen and (max-width:991px)
+{   .productView_images
+    {   width:40%;
+    }
+    .productView_details, .productView_title
+    {   width:60%;
+    }
+    .productView_title
+    {   font-size:40px;
+    }
+    .productView_Additionals
+    {   padding:0 0 40px;
+    }
+    .yotpo_below_title {   
+        width:60%;
+    }
+}
+@media only screen and (max-width:800px)
+{   .specs_list > div
+    {   width:45%;
+    }
+    .specs_hr
+    {   width:100%;
+    }
+}
+@media only screen and (max-width:767px)
+{   .productView_images, .productView_details
+    {   width:100%;
+    }
+    .specs_list
+    {   margin:0 -15px 50px;
+    }
+    .specs_list > div
+    {   width:48%;
+    }
+    .specs_list .specs_left > img
+    {   display:block; margin:0 auto; text-align:center;
+    }
+    .productView_title
+    {   width:100%; text-align:center; margin:0 0 15px;
+    }   
+    .yotpo_below_title {   
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 15px 0 20px !important;
+    }
+    .productView_image
+    {   min-height:auto
+    }
+    .productView_image img 
+    {   display:block; margin:0 auto; max-height:400px;   
+    }
+}
+@media only screen and (max-width:479px)
+{   .productView_title
+    {   font-size:40px;
+    }   
+    .price_section
+    {   text-align:center;
+    }
+    .buy_btn_section > a
+    {   width:100%; margin:0 auto 30px auto !important; display:block; text-align:center;
+    }
+    .specs_list
+    {   flex-wrap:wrap; margin:0 auto 15px;
+    }
+    .specs_list > div
+    {   width:100%;
+    }
+    .wtb_btn{
+        text-align: center; 
+    }
+}
+@media only screen and (max-width:439px)
+{   .productView_title
+    {   font-size:31px;
+        line-height: 1.2;
+    }  
+}
+/* related product */
+.related_products .title{
+    text-align: center;
+}
+.slider_related{
+    padding: 30px 0 80px; 
+}
+.wishlistButton{
+  display: none;
+}
+.list_prod{
+    padding: 0 20px;
+}
+.related_products h4 a{
+    font-size: 16px;
+    line-height: 20px;
+    color: #1c2e33;
+    font-family: 'AvenirNextLTPro-Demi';
+    text-decoration: none;
+    font-weight: 600;
+    min-height: 60px;
+    display: block;
+}
+.related_products .slider_related li{
+    padding: 0 20px;
+    text-align: center;
+    max-width: 252px;
+}
+.slider_related .slick-list .slick-track .slick-slide > div{
+    text-align: center;
+}
+.related_price{
+    font-size: 16px;
+    line-height: 20px;
+    color: #1c2e33;
+    font-family: 'AvenirNextLTPro-Demi';
+    text-decoration: none;
+    font-weight: 600;
+}
+.related_price .regular_price{
+    text-decoration: line-through;
+    color: #898989;
+    font-weight: 400;
+}
+.related_price .sale_price{
+    color: red;
+    margin-right: 5px;
+}
+
+
+/*.related_products .prod_img{
+    position: relative;
+    padding-bottom: 100%;
+    display: block;
+}
+.related_products .prod_img img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}*/
+@media (min-width: 836px){
+    .slider_related{
+        width: 75%;
+        margin: auto;
+        max-width: 755px;
+    }
+    .list_prod{
+        width: 25%;
+    }
+}
+@media (max-width: 835px){
+    .productView_image{
+        text-align: center;
+    }
+    .list_prod{
+        width: 50%;
+    }
+}
+/* qty */
+.Quantity_action_qty input{
+    border: 1px solid #eaeaea;
+    border-radius: 0;
+    cursor: default;
+    width: 80px;
+    margin: 0 0 0 0;
+    color: #000000;
+    font-weight: 700;
+    text-align: center;
+}
+.Quantity_action_button{
+    border: 1px solid #eaeaea;
+    background: #fff;
+    width: 40px;
+    color: #000;
+    stroke: #000000;
+    cursor: pointer;
+    height: 40px;
+    margin-left: -1px;
+    text-align: center;
+    line-height: 45px;
+}
+.Quantity_action_button:not([disabled]):hover{
+    background-color: #66C729;
+    color: #fff;
+}
+.Quantity_item_actions{
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.buy_btn_section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.add_cart{
+    margin-bottom: 20px;
+    user-select: none;
+}
+@media (max-width: 479px){
+    .Quantity_item_actions{
+        margin-right: 0px;
+    }
+    .buy_btn_section{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* additional tabs sections */
+
+
+
+
+.additional_tabs .tabs_title{
+    background-color: #eeeeee;
+}
+.additional_tabs .tabs_title ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+.additional_tabs .tabs_title ul li{
+    padding: 0 20px;
+}
+.additional_tabs .tabs_title a{
+    font-size: 16px;
+    color: #1c2e33;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: AvenirNextLTPro-Demi;
+    padding: 20px 0;
+    display: block;
+    position: relative;
+    font-weight: 600;
+}
+.additional_tabs .tabs_title a:after{
+    content: '';
+    display: block;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    transition: height ease-in 0.2s;
+    position: absolute;
+    background-color: #ececec;
+    height: 0;
+}
+.additional_tabs .tabs_title a:active:after, .additional_tabs .tabs_title .active a:after{
+    background-color: #1c2e33;
+    height: 4px;
+}
+.zoleo_work .title{
+    text-align: center;
+    margin: 40px auto 30px;
+}
+.light, .light p, .light h2, .light li{
+    color: #ffffff;
+}
+.full_bg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.coverage i{
+    font-size: 80px;
+    margin-right: 10px;
+}
+.zoleo_msg .content, .zoleo_device .content{
+    display: flex;
+    align-items: center;
+    width: 480px;
+    max-width: 100%;
+    text-shadow: 0 1.2px 5px #333;
+}
+.mobile_app .title{
+    text-align: center;
+    margin: 80px auto 50px;
+}
+.mobile_app .apps .items{
+    text-align: center;
+}
+.mobile_app .apps .items p{
+    font-size: 14px;
+    color: #515151;
+    line-height: 20px;
+}
+.mobile_app .app_bottom{
+    text-align: center;
+    margin-bottom: 50px;
+}
+/*.mobile_app .app_bottom .notes{
+    font-style: italic;
+}*/
+.mobile_app .app_bottom p, .features p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.mobile_app .app_bottom .store{
+    margin: 40px 0;
+}
+.mobile_app .app_bottom .store a{
+    display: inline-block;
+    box-sizing: border-box;
+}
+.apple{
+    width: 160px;
+    margin-right: 20px;
+}
+.google{
+    width: 180px;
+}
+.features{
+    background-color: #f1f1f1;
+    padding: 30px 0 50px;
+}
+.features h3{
+    margin-bottom: 15px;
+}
+.features a{
+    text-decoration: underline;
+    color: #3ABBB7;
+}
+.share_location{
+    padding: 30px 0;
+}
+.share_location p, .sos_help p{
+    margin: 16px 0 32px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.share_location .notes{
+    font-style: italic;
+}
+.sos_help{
+    background-color: #f1f1f1;
+    padding: 100px 0 50px;
+}
+.what_in_box .title{
+    text-align: center;
+}
+.what_in_box{
+    margin: 50px 0;
+}
+.share_location .feature_list, .share_location ul{
+    margin-bottom: 32px;
+}
+.what_in_box .left_img iframe{
+    max-width: 100%;
+}
+@media (min-width: 768px){
+    .additional_tabs .tabs_title ul{
+        display: flex;
+        white-space: nowrap;
+        overflow-x: auto;
+    }
+    .coverage{
+        display: flex;
+    }
+    .zoleo_msg, .zoleo_device{
+        width: 50%;
+        padding: 120px 50px 100px;
+    }
+    .mobile_app .apps{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    .mobile_app .apps .items{
+        width: 20%;
+        padding: 0 15px;
+    }
+    .mobile_app .apps .items img{
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    .features .inner_section{
+        width: 56.67%;
+        margin: auto;
+    }
+    .share_location .location{
+        align-items: center;
+        justify-content: center;
+    }
+    .share_location .left_content, .two_col .left_content , .two_col .left_img{
+        width: 56.6666666667%;
+    }
+    .share_location .right_img, .two_col .right_img{
+        margin-left: 8.66666666667%;
+        width: 30.6666666667%;
+    }
+    .two_col .right_content{
+        width: 30.6666666667%;
+    }
+    .what_in_box .left_img{
+        text-align: center;
+    }
+    .two_col{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width: 1199px) and (min-width: 768px){
+    .zoleo_msg .content, .zoleo_device .content{
+        flex-direction: column;
+    }
+    .zoleo_msg, .zoleo_device{
+        padding: 120px 15px 100px;
+        box-sizing: border-box;
+    }
+}
+@media (max-width: 767px){
+    .acc_content{
+        display: none;
+    }
+    .acc_head{
+        font-family: 'AvenirNextLTPro-Demi';
+        letter-spacing: 0.7px;
+        color: #1c2e33;
+        position: relative;
+        transition: all ease-in 0.25s;
+        font-size: 15px;
+        line-height: 1.5;
+        font-weight: 600;
+        border-bottom: 1px solid #e6e4dc;
+        display: block;
+        padding: 25px 20px;
+        text-transform: uppercase;
+        position: relative;
+    }
+    .acc_head .toggle_icons{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 10px;
+        top: -3px;
+        z-index: 0;
+        margin-top: 22px;
+    }
+    .acc_head .toggle_icons:after{
+        content: '+';
+        font-size: 40px;
+        line-height: 30px;
+        color: #515151;
+        text-align: center;
+        display: block;
+        font-weight: 400;
+    }
+    .acc_head.active .toggle_icons:after{
+        content: '_';
+        top: -15px;
+        position: relative;
+    }
+    .zoleo_msg, .zoleo_device{
+        padding: 100px 20px 50px;
+        background-position: right;
+    }
+    .zoleo_msg .content, .zoleo_device .content{
+        flex-direction: column;
+        box-sizing: border-box;
+        width: 310px;
+    }
+    .zoleo_msg p, .zoleo_device p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .mobile_app .apps .items{
+        margin-bottom: 50px;
+    }
+    .mobile_app .apps .items img{
+        width: 250px;
+    }
+    .apple{
+        margin-right: 0;
+    }
+    .mobile_swap{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .right_img h2{
+        text-align: center;
+    }
+    .share_location .feature_list, .share_location ul{
+        padding-left: 30px;
+    }
+    .sos_help{
+        padding: 50px 0;
+    }
+    .sos_help .right_img img{
+        margin: 30px auto;
+    }
+    .what_in_box ul{
+        padding-left: 20px;
+    }
+}

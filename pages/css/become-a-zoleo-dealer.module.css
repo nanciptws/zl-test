@@ -1,0 +1,84 @@
+.become_zoleo_dealer p{
+	margin-bottom: 32px;
+	font-size: 16px;
+	line-height: 24px;
+}
+.become_zoleo_dealer a{
+	color: #3ABBB7;
+}
+.noMarginBottom{
+	margin-bottom: 0;
+}
+.noMarginTop{
+	margin-top: 0;
+}
+.legal{
+	font-style: italic;
+	font-size: 14px;
+}
+.become_zoleo_dealer .lead{
+	font-size: 20px;
+    line-height: 28px;
+}
+.text_light{
+	color: #ffffff;
+}
+.align_center{
+	text-align: center;
+}
+.full_bg{
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.become_zoleo_dealer .top_banner{
+	padding: 120px 0;
+	position: relative;
+}
+.rel_cont{
+	position: relative;
+	z-index: 1;
+}
+.become_zoleo_dealer_inner{
+	padding: 40px 0 80px;
+	/*background-image: url(https://images.prismic.io/zoleoinc/9aa12725-e9fb-4b92-85de-dc84439d36ac_zoleo-circle-background.png?auto=compress,format);*/
+}
+.become_zoleo_dealer_inner iframe{
+	width: 100%;
+	min-width: 100%;
+	border: none;
+}
+.field{
+	margin-bottom: 20px;
+}
+.icon_list_checkmark ul{
+	list-style: none;
+	padding-left: 35px;
+	margin-bottom: 22px;
+}
+.icon_list_checkmark li{
+	margin-bottom: 14px;
+}
+.icon_list_checkmark ol{
+	padding-left: 20px;
+}
+.icon_list_checkmark ul li:before{
+	font-family: "zoleo-icons";
+    content: '\e934';
+    font-size: 1.3em;
+    margin: 0 15px 0 -36px;
+}
+@media (min-width: 836px){
+	.two_col{
+		display: flex;
+		justify-content: center;
+	}
+	.become_zoleo_dealer_inner .one_half:last-child{
+		margin-left: 4%;
+	}
+}
+@media (max-width: 835px){
+	.become_zoleo_dealer_inner .one_half{
+		margin-top: 50px;
+	}
+}

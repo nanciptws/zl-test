@@ -1,0 +1,10 @@
+{
+  "name": "ZOLEO® Seamless Connectivity Beyond Cell Coverage - United States",
+  "short_name": "ZOLEO®",
+  "description": "ZOLEO® provides seamless global messaging connectivity beyond cell coverage, learn more about the ZOLEO Satellite Communicator, the app and more.",
+  "display": "standalone",
+  "start_url": "/",
+  "theme_color": "#fff",
+  "background_color": "#66C729",
+  "orientation": "portrait"
+}

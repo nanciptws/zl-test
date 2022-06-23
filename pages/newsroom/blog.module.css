@@ -1,0 +1,82 @@
+
+
+/* common css */
+.gray_bg{
+	background-color: #515151;
+}
+/* common css end */
+
+
+.single_post a{
+	color: #3ABBB7;
+}
+.single_post h4, .h4{
+	font: 24px/26px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+    letter-spacing: 0;
+    color: #1c2e33;
+    font-weight: 400;
+}
+.single_post h5, .h5{
+	font: 22px/24px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+    letter-spacing: 0;
+    color: #1c2e33;
+    font-weight: 400;
+}
+.single_post h6, .h6{
+	font: 16px/18px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+    letter-spacing: 0;
+    color: #1c2e33;
+    font-weight: 400;
+}
+.noMarginTop{
+	margin-top: 0;
+}
+.noMargin{
+	margin: 0;
+}
+.lead{
+	font-size: 20px;
+	line-height: 28px;
+}
+.text_light{
+	color: #ffffff;
+}
+.align_center{
+	text-align: center;
+}
+.full_bg{
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.single_post .top_banner{
+	padding: 60px 0;
+}
+.eight{
+	margin: 90px auto;
+}
+.back_link{
+	padding-top: 40px;
+}
+
+
+.single_post_inner p{
+	font-size: 16px;
+    line-height: 24px;
+	margin-bottom: 32px;
+}
+
+.single_post_inner .quote{
+	background-color: #f1f1f1;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
+    padding: 11px 20px;
+    border-left: 10px solid #e1e1e1;
+}
+
+@media (min-width: 836px){
+	.eight{
+		width: 65.33%;
+	}
+}

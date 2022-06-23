@@ -1,0 +1,113 @@
+.header-main nav{
+	display: none;
+}
+.before-footer, .footer-main{
+	display: none;
+}
+@media (min-width: 992px){
+	.header-main .where-buy a{
+		display: none;
+	}
+	.header-main .logo{
+		margin-bottom: 15px;
+		margin-top: 15px;
+	}
+}
+.region_page .store_desc{
+	background-color: #fff;
+    padding: 30px 0;
+}
+.region_page .store_desc p{
+	font-size: 16px;
+    line-height: 24px;
+}
+.region_page .top_banner{
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.region_page .banner_content h1, .region_page .banner_content p{
+	color: #fff;
+}	
+.region_page .banner_content h1{
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+.region_row{
+	background-color: #f8f8f8;
+}
+.region_row .container{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 30px 0;
+	justify-content: space-between;
+}
+.region_row .container > div{
+	padding-right: 30px;
+}
+.region_row ul{
+	list-style: none;
+	padding: 0;
+	margin-left: 2px;
+}
+.region_row ul img{
+	width: 30px;
+	margin-right: 10px;
+	align-self: baseline;
+}
+.region_row ul li{
+	display: flex;
+	margin-bottom: 10px;
+}
+.region_row .world ul li{
+	align-items: center;
+}
+.region_row ul li a{
+	color: #3ABBB7;
+	text-decoration: underline;
+}
+.region_row ul li .country{
+	display: flex;
+	flex-direction: column;
+}
+@media (min-width: 992px){
+	.region_page .banner_layer{
+		display: flex;
+		align-items: center;
+		padding: 50px;
+    	box-sizing: border-box;
+	}
+	.region_page .banner_content{
+		width: 70%;
+	    padding-right: 30px;
+	    box-sizing: border-box;
+	}
+	.region_page .banner_img{
+		width: 30%;
+	}
+}
+@media (max-width: 991px){
+	.region_page .banner_layer{
+		padding: 50px 0;
+		text-align: center;
+	}
+	.region_page .banner_layer .desktop{
+		display: none;
+	}
+}
+@media (max-width: 767px){
+	.region_row .container{
+		flex-direction: column;
+	}
+	.region_row ul span{
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 0;
+	}
+	.region_row ul li {
+		padding-left: 2%;
+		width: 100%;
+	}
+	.region_row .container > div{
+		padding-right: 0;
+	}
+}

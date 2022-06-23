@@ -1,0 +1,126 @@
+/* Login */
+.login{
+  width: 100%;
+  padding: 30px 0;
+}
+.login .h1{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.login .sub_head{
+  margin: 0 0 10px 0;
+}
+.login .sub_note{
+  margin: 20px 0 20px 0;
+  font-size: 16px;
+}
+
+.login .input_field{
+  width: 100%;
+}
+
+.login .login_customer{
+  padding-right: 3%;
+  width: 48%;
+  display: block;
+}
+.login .login_customer .message{
+  width: 100%;
+}
+.login .login_customer .message p{
+  width: 100%;
+  font-size: 16px;
+  color: red;
+  margin: 0 0 20px 0;
+}
+.login .input_field{
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.login .input_field label{
+  font: 15px/28px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+  color: #5C6468;
+}
+
+.login .input_field input{
+  background: #ffffff;
+  background-clip: padding-box;
+  border: 1px solid #C3C3C3;
+  border-radius: 0.4em;
+  font: normal 14px/18px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+  padding: 10px 15px 10px 15px;
+  vertical-align: baseline;
+  width: 100%;
+  color: #1c2e33;
+}
+
+.login .input_field.with_link{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login .input_field button{
+  transition: all ease-in 0.25s;
+  border-radius: 25px;
+  background: transparent;
+  font: 500 14px/11px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  width: auto;
+  max-width: 300px;
+  text-decoration: none;
+  padding: 16px 30px 16px 30px;
+  letter-spacing: 0;
+  display: inline-block;
+  margin-bottom: 0;
+  white-space: normal;
+  color: #fff;
+  background: #66C729;
+  border-radius: 25px;
+  border: 1px solid #66C729;
+}
+
+
+.login .input_field .action{
+  margin: 0px 0;
+  display: inline-block;
+  text-align: right;
+  color: #3ABBB7;
+  text-decoration: underline;
+  font: 15px/28px "AvenirNextLTPro-Medium", "Gill Sans", "Gill Sans MT", Arial, sans-serif;
+}
+.login .input_field .action:hover{
+  text-decoration: none;
+}
+
+@media (max-width: 785px){
+  .login .login_customer{
+    padding-right: 0;
+    width: 100%;
+  }
+  .login .h1{
+    margin-bottom: 25px;
+    font-size: 32px;
+  }
+  .login .sub_head{
+    font-size: 22px;
+    margin: 0 0 10px 0;
+  }
+  .login .sub_note{
+    font-size: 16px;
+    margin: 0 0 20px 0;
+  }
+  .login .input_field.with_link{
+    flex-direction: column;
+  }
+  .login .input_field.with_link{
+    flex-direction: column;
+  }
+  .login .input_field button{
+    margin-bottom: 20px;
+  }
+}
